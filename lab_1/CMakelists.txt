@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.10)
+project(gtest)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Добавление опций компиляции
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror=maybe-uninitialized")
+
+# Указываем путь к Google Test
+add_subdirectory(googletest)
+
+# Создание библиотеки для основного кода
+add_library(${CMAKE_PROJECT_NAME}_lib src/counter.cpp)
+
+add_executable(main main.cpp)
+
+# Линковка библиотеки с основным исполняемым файлом
+target_link_libraries(main PRIVATE ${CMAKE_PROJECT_NAME}_lib)
+
+# Включение тестов
+enable_testing()
+
+# Создание исполняемого файла для тестов
+add_executable(tests test/test_1.cpp)
+
+# Линковка библиотеки с тестами
+target_link_libraries(tests PRIVATE ${CMAKE_PROJECT_NAME}_lib gtest_main)
+
+# Добавление тестов в тестовый набор
+add_test(NAME MyProjectTests COMMAND tests)
