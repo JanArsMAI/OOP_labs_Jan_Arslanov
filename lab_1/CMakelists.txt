@@ -24,7 +24,6 @@ enable_testing()
 # Создание исполняемого файла для тестов
 add_executable(tests test/test_1.cpp)
 
-# Линковка библиотеки с тестами
 target_link_libraries(tests PRIVATE ${CMAKE_PROJECT_NAME}_lib gtest_main)
 
 # Добавление тестов в тестовый набор
