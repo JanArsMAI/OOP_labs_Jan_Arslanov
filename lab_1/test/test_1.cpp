@@ -24,6 +24,20 @@ TEST(test_03, basic_test_set)
     int result = counter(a, b);
     ASSERT_TRUE(result==37);
 }
+TEST(test_04, basic_test_set)
+{
+    int a = 5;
+    int b = 8;
+    int result = counter(a, b);
+    ASSERT_TRUE(result==8);
+}
+TEST(test_05, basic_test_set)
+{
+    int a = 0;
+    int b = 0;
+    int result = counter(a, b);
+    ASSERT_TRUE(result==0);
+}
 
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
