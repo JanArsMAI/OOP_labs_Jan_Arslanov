@@ -8,17 +8,15 @@ Triangle::Triangle(const Point list_of_points[3]){
     is_valid_or_not();
 }
 bool Triangle::is_valid_or_not() const{
-    //найдём длины сторон
     const Point first_point = this->points[0];
     const Point second_point = this->points[1];
     const Point third_point = this->points[2];
-    //проерим случай, если все точки лежат на одной линии
     if ((first_point.x == second_point.x && second_point.x == third_point.x && first_point.x == third_point.x) || (first_point.y == second_point.y && second_point.y == third_point.y && first_point.y == third_point.y)){
         throw std::invalid_argument("all points are on the one line, impossible to make a triangle");
     }
-    //проерим случай, когда передаются одиннаковые точки
+
     check_for_equal_points(first_point, second_point, third_point);
-    //вычислим 3 стороны треугольника 
+
     double first_side = sqrt(pow(abs(first_point.x - second_point.x), 2) + pow(abs(first_point.y - second_point.y), 2));
     double second_side = sqrt(pow(abs(first_point.x - third_point.x), 2) + pow(abs(first_point.y - third_point.y), 2));
     double third_side = sqrt(pow(abs(second_point.x - third_point.x), 2) + pow(abs(second_point.y - third_point.y), 2));
@@ -92,8 +90,6 @@ Triangle::operator double() const
     const Point first_point = this->points[0];
     const Point second_point = this->points[1];
     const Point third_point = this->points[2];
-
-    // Вычисление длин сторон
     double first_side = sqrt((first_point.x - second_point.x) * (first_point.x - second_point.x) +
                              (first_point.y - second_point.y) * (first_point.y - second_point.y));
     double second_side = sqrt((first_point.x - third_point.x) * (first_point.x - third_point.x) +
