@@ -55,12 +55,12 @@ Triangle &Triangle::operator=(Triangle&& other_triangle) noexcept{
 
 
 bool Triangle::operator==(const Figure &other) const{
-    const Triangle* other_triangle = dynamic_cast<const Triangle *> (&other);
-    if (!(other_triangle)){
+    const Triangle* other_triangle = dynamic_cast<const Triangle *>(&other);
+    if (!other_triangle) {
         return false;
     }
-    for (size_t i = 0; i <= 2; ++i){
-        if ((this->points[i].x != other_triangle->points[i].x) || (this->points[i].y != other_triangle->points[i].y)){
+    for (size_t i = 0; i < 3; ++i){
+        if ((this->points[i].x != other_triangle->points[i].x) || (this->points[i].y != other_triangle->points[i].y)) {
             return false;
         }
     }
@@ -104,30 +104,32 @@ Triangle::operator double() const
     return area;
 }
 
-std::ostream &operator<<(std::ostream &os, const Triangle &object)
-{
-    os << "Triangle: points = ";
-    for (const auto &point : object.points)
-    {
+std::ostream &Triangle::output(std::ostream &os) const {
+    os << "Triangle points :";
+    for (const auto &point : points) {
         os << point << " ";
     }
     return os;
 }
 
-std::istream &operator>>(std::istream &is, Triangle &object)
-{
-    Point points[3];
-    for (int i = 0; i < 3; ++i)
-    {
-        is >> points[i];
+std::istream &Triangle::input(std::istream &is) {
+    Point temp_points[3];
+    for (int i = 0; i < 3; ++i) {
+        is >> temp_points[i];
     }
-    if (is.fail())
-    {
+    if (is.fail()) {
         throw std::invalid_argument("Error. Expected 3 points.");
     }
-    for (int i = 0; i < 3; ++i)
-    {
-        object.points[i] = points[i];
+    for (int i = 0; i < 3; ++i) {
+        points[i] = temp_points[i];
     }
     return is;
+}
+
+std::ostream &operator<<(std::ostream &os, const Triangle &object) {
+    return object.output(os);
+}
+
+std::istream &operator>>(std::istream &is, Triangle &object) {
+    return object.input(is);
 }

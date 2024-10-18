@@ -13,8 +13,9 @@ public:
     void get_data() const override;
     Point center() const override;
     operator double() const override;
-    friend std::ostream &operator<<(std::ostream &os, const Square &another_tr);
-    friend std::istream &operator>>(std::istream &is, Square &another_tr);
+
+    std::ostream &output(std::ostream &os) const;
+    std::istream &input(std::istream &is);
 
 private:
     Point points[4];

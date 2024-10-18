@@ -65,3 +65,59 @@ TEST(test_of_square, wrong_square)
     EXPECT_THROW(Square rect_3(points_3), std::invalid_argument);
     EXPECT_THROW(Square rect_3(points_4), std::invalid_argument);
 }
+
+
+TEST(test_of_equality_triangles, equal_triangles)
+{
+    Point points[3] = {{0, 1}, {1, 1}, {2, 0}};
+    Point points_2[3] = {{0, 1}, {1, 1}, {2, 0}};
+    Triangle t_1(points);
+    Triangle t_2(points_2);
+    ASSERT_TRUE(t_1 == t_2);
+}
+
+TEST(test_of_equality_square, equal_square)
+{
+    Point points[4] = {{-1.0, -1.0},{-1.0, 1.0},{1.0, 1.0}, {1.0, -1.0}};
+    Square rect_1(points);
+    Point points_2[4] = {{-1.0, -1.0},{-1.0, 1.0},{1.0, 1.0}, {1.0, -1.0}};
+    Square rect_2(points_2);
+    ASSERT_TRUE(rect_1 == rect_2);
+}
+
+TEST(test_of_equality_rectangles, equal_rectangles)
+{
+    Point points[4] = {{-4.0, -1.0},{-4.0, 1.0},{4.0, 1.0}, {4.0, -1.0}};
+    Rectangle rect_1(points);
+    Point points_2[4] = {{-4.0, -1.0},{-4.0, 1.0},{4.0, 1.0}, {4.0, -1.0}};
+    Rectangle rect_2(points);
+    ASSERT_TRUE(rect_1 == rect_2);
+}
+
+
+TEST(test_of_not_equality_triangles, not_equal_triangles)
+{
+    Point points[3] = {{0.0, 2.0},{1.0, 0.0},{0.0, -1.0}};
+    Point points_2[3] = {{0.0, 1.0},{1.0, 0.0}, {0.0, -1.0}};
+    Triangle t_1(points);
+    Triangle t_2(points_2);
+    EXPECT_FALSE(t_1 == t_2);
+}
+
+TEST(test_of_not_equality_square, not_equal_square)
+{
+    Point points[4] = {{-2.0, -2.0},{-2.0, 2.0},{2.0, 2.0}, {2.0, -2.0}};
+    Square rect_1(points);
+    Point points_2[4] = {{-1.0, -1.0},{-1.0, 1.0},{1.0, 1.0}, {1.0, -1.0}};
+    Square rect_2(points_2);
+    EXPECT_FALSE(rect_1 == rect_2);
+}
+
+TEST(test_of_equality_not_rectangles, not_equal_rectangles)
+{
+    Point points[4] = {{-3.0, -1.0},{-3.0, 1.0},{3.0, 1.0}, {3.0, -1.0}};
+    Rectangle rect_1(points);
+    Point points_2[4] = {{-4.0, -1.0},{-4.0, 1.0},{4.0, 1.0}, {4.0, -1.0}};
+    Rectangle rect_2(points_2);
+    EXPECT_FALSE(rect_1 == rect_2);
+}
