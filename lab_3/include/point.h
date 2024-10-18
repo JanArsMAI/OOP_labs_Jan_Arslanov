@@ -4,7 +4,7 @@
 
 struct Point
 {
-    double x, y; //координаты точки
+    double x, y;
     Point(): x(0), y(0) {}
     Point(double x, double y): x(x), y(y) {}
     friend std::ostream &operator<<(std::ostream& output, const Point& cur_point){

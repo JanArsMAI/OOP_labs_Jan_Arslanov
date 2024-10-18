@@ -85,27 +85,34 @@ Square::operator double() const {
 }
 
 
-std::ostream &operator<<(std::ostream &os, const Square &object) {
+std::ostream &Square::output(std::ostream &os) const {
     os << "Square: points = ";
-    for (const auto &point : object.points) {
+    for (const auto &point : points) {
         os << point << " ";
     }
     return os;
 }
 
-
-std::istream &operator>>(std::istream &is, Square &object) {
-    Point points[4];
+std::istream &Square::input(std::istream &is) {
+    Point temp_points[4];
     for (int i = 0; i < 4; ++i) {
-        is >> points[i];
+        is >> temp_points[i];
     }
     if (is.fail()) {
         throw std::invalid_argument("Error. Expected 4 points.");
     }
     for (int i = 0; i < 4; ++i) {
-        object.points[i] = points[i];
+        points[i] = temp_points[i];
     }
     return is;
+}
+
+std::ostream &operator<<(std::ostream &os, const Square &object) {
+    return object.output(os);
+}
+
+std::istream &operator>>(std::istream &is, Square &object) {
+    return object.input(is);
 }
 
 

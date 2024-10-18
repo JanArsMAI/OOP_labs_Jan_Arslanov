@@ -7,10 +7,9 @@
 class Figure{
     public:
     //используем virtual, чтобы функции роидетльского класса могли быть переопределены у произвольных классов
-    
-    virtual ~Figure() noexcept = default;
+    virtual ~Figure() = default;
+    virtual bool operator==(const Figure& other) const = 0;
     virtual void get_data() const = 0;
-    virtual operator double() const = 0;
-    virtual bool operator==(const Figure &other) const = 0;
     virtual Point center() const = 0;
+    virtual operator double() const = 0;
 };

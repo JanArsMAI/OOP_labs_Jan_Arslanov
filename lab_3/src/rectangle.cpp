@@ -88,26 +88,34 @@ Rectangle::operator double() const {
 }
 
 
-std::ostream &operator<<(std::ostream &os, const Rectangle &object) {
-    os << "Rectangle: points = ";
-    for (const auto &point : object.points) {
+std::ostream &Rectangle::output(std::ostream &os) const {
+    os << "Rectangle points :";
+    for (const auto &point : points) {
         os << point << " ";
     }
     return os;
 }
 
-std::istream &operator>>(std::istream &is, Rectangle &object) {
-    Point points[4];
+std::istream &Rectangle::input(std::istream &is) {
+    Point temp_points[4];
     for (int i = 0; i < 4; ++i) {
-        is >> points[i];
+        is >> temp_points[i];
     }
     if (is.fail()) {
         throw std::invalid_argument("Error. Expected 4 points.");
     }
     for (int i = 0; i < 4; ++i) {
-        object.points[i] = points[i];
+        points[i] = temp_points[i];
     }
     return is;
+}
+
+std::ostream &operator<<(std::ostream &os, const Rectangle &object) {
+    return object.output(os);
+}
+
+std::istream &operator>>(std::istream &is, Rectangle &object) {
+    return object.input(is);
 }
 
 Point Rectangle::center() const{
