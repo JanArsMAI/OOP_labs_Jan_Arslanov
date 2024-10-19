@@ -13,6 +13,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_point.dir/DependInfo.cmake"
+  "/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_figure.dir/DependInfo.cmake"
+  "/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_triangle.dir/DependInfo.cmake"
+  "/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_rectangle.dir/DependInfo.cmake"
+  "/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_square.dir/DependInfo.cmake"
   "/workspaces/oop_labs_2024/lab_3/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "/workspaces/oop_labs_2024/lab_3/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

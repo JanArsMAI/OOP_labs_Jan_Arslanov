@@ -378,6 +378,10 @@ CMakeFiles/tests.dir/test/test_01.cpp.o: test/test_01.cpp \
   src/rectangle.cpp \
   include/rectangle.h \
   include/figure.h \
+  /usr/local/include/c++/14.2.0/fstream \
+  /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/basic_file.h \
+  /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/c++io.h \
+  /usr/local/include/c++/14.2.0/bits/fstream.tcc \
   include/point.h \
   /usr/local/include/c++/14.2.0/math.h \
   /usr/local/include/c++/14.2.0/cmath \
@@ -404,6 +408,13 @@ CMakeFiles/tests.dir/test/test_01.cpp.o: test/test_01.cpp \
   /usr/local/include/c++/14.2.0/tr1/poly_hermite.tcc \
   /usr/local/include/c++/14.2.0/tr1/poly_laguerre.tcc \
   /usr/local/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+  /usr/local/include/c++/14.2.0/algorithm \
+  /usr/local/include/c++/14.2.0/bits/stl_algo.h \
+  /usr/local/include/c++/14.2.0/bits/algorithmfwd.h \
+  /usr/local/include/c++/14.2.0/bits/stl_heap.h \
+  /usr/local/include/c++/14.2.0/bits/uniform_int_dist.h \
+  /usr/local/include/c++/14.2.0/bits/ranges_algo.h \
+  /usr/local/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
   src/square.cpp \
   include/square.h \
   src/triangle.cpp \
@@ -415,6 +426,10 @@ include/triangle.h:
 src/triangle.cpp:
 
 include/square.h:
+
+/usr/local/include/c++/14.2.0/bits/algorithmfwd.h:
+
+/usr/local/include/c++/14.2.0/algorithm:
 
 /usr/local/include/c++/14.2.0/tr1/riemann_zeta.tcc:
 
@@ -442,6 +457,12 @@ include/square.h:
 
 include/point.h:
 
+/usr/local/include/c++/14.2.0/bits/fstream.tcc:
+
+/usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/c++io.h:
+
+/usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/basic_file.h:
+
 include/figure.h:
 
 include/rectangle.h:
@@ -467,6 +488,8 @@ googletest/googletest/include/gtest/internal/gtest-string.h:
 /usr/local/include/c++/14.2.0/bits/stl_map.h:
 
 /usr/local/include/c++/14.2.0/map:
+
+/usr/local/include/c++/14.2.0/bits/ranges_algo.h:
 
 /usr/local/lib/gcc/x86_64-linux-gnu/14.2.0/include/float.h:
 
@@ -542,6 +565,8 @@ googletest/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
+/usr/local/include/c++/14.2.0/bits/stl_algo.h:
+
 /usr/include/semaphore.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
@@ -615,6 +640,8 @@ googletest/googletest/include/gtest/gtest-message.h:
 /usr/local/include/c++/14.2.0/climits:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/local/include/c++/14.2.0/bits/uniform_int_dist.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -705,6 +732,8 @@ googletest/googletest/include/gtest/gtest_pred_impl.h:
 /usr/local/include/c++/14.2.0/bits/stl_function.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/local/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
@@ -937,6 +966,8 @@ googletest/googletest/include/gtest/internal/gtest-filepath.h:
 /usr/local/include/c++/14.2.0/bits/exception_defines.h:
 
 /usr/include/math.h:
+
+/usr/local/include/c++/14.2.0/fstream:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -1197,6 +1228,8 @@ googletest/googletest/include/gtest/internal/gtest-internal.h:
 /usr/include/x86_64-linux-gnu/asm/unistd.h:
 
 /usr/local/include/c++/14.2.0/bits/std_mutex.h:
+
+/usr/local/include/c++/14.2.0/bits/stl_heap.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 

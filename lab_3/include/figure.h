@@ -1,15 +1,23 @@
 #pragma once
-#include <istream>
-#include <ostream>
-#include "../include/point.h"
-#include <math.h>
+#include <iostream>
+#include <fstream>
+#include "point.h"
 
-class Figure{
-    public:
-    //используем virtual, чтобы функции роидетльского класса могли быть переопределены у произвольных классов
-    virtual ~Figure() = default;
+class Figure {
+public:
+    virtual Point center() const = 0;  // Добавлен const
+    virtual operator double() const = 0;
     virtual bool operator==(const Figure& other) const = 0;
     virtual void get_data() const = 0;
-    virtual Point center() const = 0;
-    virtual operator double() const = 0;
+    virtual ~Figure () = default;
+
+protected:
+    virtual std::ostream& output(std::ostream& os) const = 0;
+    virtual std::istream& input(std::istream& is) = 0;
+
+    friend std::ostream& operator<< (std::ostream& os, const Figure &figure);
+    friend std::istream& operator>> (std::istream& is, Figure &figure);
 };
+
+std::ostream& operator<< (std::ostream& os, const Figure &figure);
+std::istream& operator>> (std::istream& is, Figure &figure);

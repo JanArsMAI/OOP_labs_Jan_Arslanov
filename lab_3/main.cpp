@@ -2,54 +2,131 @@
 #include "./src/rectangle.cpp"
 #include "./src/square.cpp"
 #include "./src/triangle.cpp"
+#include <string>
 
-int main()
-{
-    Point triangle_pt[3] = {
-        {0.0, 1.0},
-        {1.0, 0.0},
-        {0.0, -1.0}};
-    Triangle triangle_1(triangle_pt);
-    std::cout << "center of triangle " << triangle_1.center() << std::endl;
-    std::cout << "area of triangle " << static_cast<double>(triangle_1) << std::endl;
-    Point triangle_pt_2[3] = {
-        {0.0, 1.0},
-        {1.0, 0.0},
-        {0.0, -1.0}};
-    Triangle triangle_2(triangle_pt_2);
-    if (triangle_2 == triangle_1){
-        std::cout << "these triangles are equal" << std::endl;
-    }
-    else{
-        std::cout << "they are not equal" << std::endl;
-    }
-    std::cout << "---------------------------------------------------------------------" << std::endl;
-    Point square_pt[4] = {
-        {1.0, 0.0},
-        {1.0, 1.0},
-        {2.0, 1.0},
-        {2.0, 0.0},
-        };
-    Square square_1(square_pt);
-    std::cout << "center of triangle " << square_1.center() << std::endl;
-    std::cout << "area of triangle " << static_cast<double>(square_1) << std::endl;
-    std::cout << "---------------------------------------------------------------------" << std::endl;
-    Point rectangle_pt[4] = {
-        {1.0, 0.0},
-        {1.0, 5.0},
-        {3.0, 5.0},
-        {3.0, 0.0}};
-    Rectangle rectangle_1(rectangle_pt);
-    std::cout << "center of triangle " << rectangle_1.center() << std::endl;
-    std::cout << "area of triangle " << static_cast<double>(rectangle_1) << std::endl;
-    std::cout << "---------------------------------------------------------------------" << std::endl;
+void add_figure(Figure **list_of_figures, int &size, int &capacity);
+void delete_figure(Figure **list_of_figures, int &size, const int &capacity);
+void print_info(Figure **list_of_figures, int &size, const int &capacity);
+void get_area(Figure **list_of_figures, int &size, const int &capacity);
+void destruct_list(Figure **list_of_figures, int &size, int &capacity) noexcept;
 
-    Figure *arr[] = {&triangle_1,&square_1,&rectangle_1,};
-
-    for (auto value : arr)
-    {
-        value->get_data();
+int main() {
+    int current_size = 0;
+    int capacity = 0;
+    std::cout << "Enter capacity value: ";
+    std::cin >> capacity;
+    while (capacity <= 0) {
+        std::cout << "Capacity must be more than 0: ";
+        std::cin >> capacity;
     }
 
-    return 0;
+    Figure **list_of_figures = new Figure*[capacity];
+
+    bool working_now = true;
+    while (working_now) {
+        std::cout << "Commands: exit, add_figure, delete_figure, print_info, get_area" << std::endl;
+        std::string command;
+        std::cin >> command;
+
+        if (command == "exit") {
+            std::cout << "Finishing executing..." << std::endl;
+            working_now = false;
+        } else if (command == "add_figure") {
+            add_figure(list_of_figures, current_size, capacity);
+        } else if (command == "delete_figure") {
+            delete_figure(list_of_figures, current_size, capacity);
+        } else if (command == "print_info") {
+            print_info(list_of_figures, current_size, capacity);
+        } else if (command == "get_area") {
+            get_area(list_of_figures, current_size, capacity);
+        } else {
+            std::cout << "Wrong command, try again." << std::endl;
+        }
+    }
+
+    destruct_list(list_of_figures, current_size, capacity);
+}
+
+void add_figure(Figure **list_of_figures, int &size, int &capacity) {
+    if (size >= capacity) {
+        std::cout << "Unable to add figure, list is full." << std::endl;
+        return;
+    }
+
+    Figure *current_figure = nullptr;
+    std::string type_of_figure;
+
+    while (true) {
+        std::cout << "Choose figure type: t (triangle), r (rectangle), s (square)" << std::endl;
+        std::cin >> type_of_figure;
+
+        if (type_of_figure == "t") {
+            current_figure = new Triangle();
+            break;
+        } else if (type_of_figure == "r") {
+            current_figure = new Rectangle();
+            break;
+        } else if (type_of_figure == "s") {
+            current_figure = new Square();
+            break;
+        } else {
+            std::cout << "Invalid input, please try again." << std::endl;
+        }
+    }
+
+    try {
+        std::cin >> *current_figure;
+        list_of_figures[size++] = current_figure; // Increment size after adding
+        std::cout << "Figure added successfully!" << std::endl;
+    } catch (const std::exception &e) {
+        delete current_figure; // Ensure we clean up on failure
+        std::cout << "Error: " << e.what() << std::endl;
+    }
+}
+
+void delete_figure(Figure **list_of_figures, int &size, const int &capacity) {
+    if (size <= 0) {
+        std::cout << "List is empty, unable to delete." << std::endl;
+        return;
+    }
+
+    int index = -1;
+    while (index < 0 || index >= size) {
+        std::cout << "Enter index to delete (0-" << size - 1 << "): ";
+        std::cin >> index;
+    }
+
+    delete list_of_figures[index];
+    for (int i = index; i < size - 1; ++i) {
+        list_of_figures[i] = list_of_figures[i + 1];
+    }
+    list_of_figures[--size] = nullptr; // Clear last element
+
+    std::cout << "Figure deleted successfully!" << std::endl;
+}
+
+void print_info(Figure **list_of_figures, int &size, const int &capacity) {
+    for (int i = 0; i < size; ++i) {
+        std::cout << "Figure at index " << i << ":" << std::endl;
+        std::cout << *list_of_figures[i] << std::endl;
+        std::cout << "Center: " << list_of_figures[i]->center() << std::endl;
+        std::cout << "Area: " << static_cast<double>(*list_of_figures[i]) << std::endl << std::endl;
+    }
+}
+
+void get_area(Figure **list_of_figures, int &size, const int &capacity) {
+    double total_area = 0;
+    for (int i = 0; i < size; ++i) {
+        total_area += static_cast<double>(*list_of_figures[i]);
+    }
+    std::cout << "Total area: " << total_area << std::endl;
+}
+
+void destruct_list(Figure **list_of_figures, int &size, int &capacity) noexcept {
+    for (int i = 0; i < size; ++i) {
+        delete list_of_figures[i];
+    }
+    delete[] list_of_figures;
+    size = 0;
+    capacity = 0;
 }

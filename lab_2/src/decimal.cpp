@@ -100,12 +100,12 @@ std::ostream &Decimal::print(std::ostream &os)
 }
 
 Decimal& Decimal::operator+=(const Decimal& other) {
-    int carry = 0;  // Переменная для хранения переноса
+    int par = 0;  // Переменная для хранения переноса
     size_t maxSize = std::max(_size, other._size);
     unsigned char* newData = new unsigned char[maxSize + 1]; 
 
     for (size_t i = 0; i < maxSize; ++i) {
-        int sum = carry;
+        int sum = par;
         if (i < _size) {
             sum += _array[_size - i - 1] - '0';
         }
@@ -113,10 +113,10 @@ Decimal& Decimal::operator+=(const Decimal& other) {
             sum += other._array[other._size - i - 1] - '0';
         }
         newData[maxSize - i - 1] = (sum % 10) + '0';
-        carry = sum / 10; 
+        par = sum / 10; 
     }
-    if (carry > 0) {
-        newData[0] = carry + '0';
+    if (par > 0) {
+        newData[0] = par + '0';
         maxSize++;
     }
     delete[] _array;
@@ -176,8 +176,6 @@ Decimal& Decimal::operator-=(const Decimal& other) {
 
     return *this;
 }
-
-
 
 
 Decimal& Decimal::operator=(const Decimal& other){

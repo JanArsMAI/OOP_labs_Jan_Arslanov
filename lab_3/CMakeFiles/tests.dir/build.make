@@ -92,8 +92,14 @@ tests_EXTERNAL_OBJECTS =
 
 tests: CMakeFiles/tests.dir/test/test_01.cpp.o
 tests: CMakeFiles/tests.dir/build.make
+tests: liblab_3_lib_point.a
+tests: liblab_3_lib_figure.a
+tests: liblab_3_lib_triangle.a
+tests: liblab_3_lib_rectangle.a
+tests: liblab_3_lib_square.a
 tests: lib/libgtest.a
 tests: lib/libgtest_main.a
+tests: liblab_3_lib_point.a
 tests: lib/libgtest.a
 tests: CMakeFiles/tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tests"

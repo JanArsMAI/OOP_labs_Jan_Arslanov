@@ -63,7 +63,12 @@ CMAKE_BINARY_DIR = /workspaces/oop_labs_2024/lab_3
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/lab_3_exe.dir/all
+all: CMakeFiles/lab_3_lib_point.dir/all
+all: CMakeFiles/lab_3_lib_figure.dir/all
+all: CMakeFiles/lab_3_lib_triangle.dir/all
+all: CMakeFiles/lab_3_lib_rectangle.dir/all
+all: CMakeFiles/lab_3_lib_square.dir/all
 all: CMakeFiles/tests.dir/all
 all: googletest/all
 .PHONY : all
@@ -73,7 +78,12 @@ preinstall: googletest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/lab_3_exe.dir/clean
+clean: CMakeFiles/lab_3_lib_point.dir/clean
+clean: CMakeFiles/lab_3_lib_figure.dir/clean
+clean: CMakeFiles/lab_3_lib_triangle.dir/clean
+clean: CMakeFiles/lab_3_lib_rectangle.dir/clean
+clean: CMakeFiles/lab_3_lib_square.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: googletest/clean
 .PHONY : clean
@@ -130,45 +140,184 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest_main.dir/cle
 .PHONY : googletest/googletest/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/lab_3_exe.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=9,10 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/lab_3_exe.dir/all: CMakeFiles/lab_3_lib_point.dir/all
+CMakeFiles/lab_3_exe.dir/all: CMakeFiles/lab_3_lib_figure.dir/all
+CMakeFiles/lab_3_exe.dir/all: CMakeFiles/lab_3_lib_triangle.dir/all
+CMakeFiles/lab_3_exe.dir/all: CMakeFiles/lab_3_lib_rectangle.dir/all
+CMakeFiles/lab_3_exe.dir/all: CMakeFiles/lab_3_lib_square.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=9,10 "Built target lab_3_exe"
+.PHONY : CMakeFiles/lab_3_exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+CMakeFiles/lab_3_exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_3_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/lab_3_exe.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+lab_3_exe: CMakeFiles/lab_3_exe.dir/rule
+.PHONY : lab_3_exe
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/lab_3_exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/clean
+.PHONY : CMakeFiles/lab_3_exe.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab_3_lib_point.dir
+
+# All Build rule for target.
+CMakeFiles/lab_3_lib_point.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=13,14 "Built target lab_3_lib_point"
+.PHONY : CMakeFiles/lab_3_lib_point.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab_3_lib_point.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_3_lib_point.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
+.PHONY : CMakeFiles/lab_3_lib_point.dir/rule
+
+# Convenience name for target.
+lab_3_lib_point: CMakeFiles/lab_3_lib_point.dir/rule
+.PHONY : lab_3_lib_point
+
+# clean rule for target.
+CMakeFiles/lab_3_lib_point.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/clean
+.PHONY : CMakeFiles/lab_3_lib_point.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab_3_lib_figure.dir
+
+# All Build rule for target.
+CMakeFiles/lab_3_lib_figure.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=11,12 "Built target lab_3_lib_figure"
+.PHONY : CMakeFiles/lab_3_lib_figure.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab_3_lib_figure.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_3_lib_figure.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
+.PHONY : CMakeFiles/lab_3_lib_figure.dir/rule
+
+# Convenience name for target.
+lab_3_lib_figure: CMakeFiles/lab_3_lib_figure.dir/rule
+.PHONY : lab_3_lib_figure
+
+# clean rule for target.
+CMakeFiles/lab_3_lib_figure.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/clean
+.PHONY : CMakeFiles/lab_3_lib_figure.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab_3_lib_triangle.dir
+
+# All Build rule for target.
+CMakeFiles/lab_3_lib_triangle.dir/all: CMakeFiles/lab_3_lib_point.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=19,20 "Built target lab_3_lib_triangle"
+.PHONY : CMakeFiles/lab_3_lib_triangle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab_3_lib_triangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_3_lib_triangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
+.PHONY : CMakeFiles/lab_3_lib_triangle.dir/rule
+
+# Convenience name for target.
+lab_3_lib_triangle: CMakeFiles/lab_3_lib_triangle.dir/rule
+.PHONY : lab_3_lib_triangle
+
+# clean rule for target.
+CMakeFiles/lab_3_lib_triangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/clean
+.PHONY : CMakeFiles/lab_3_lib_triangle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab_3_lib_rectangle.dir
+
+# All Build rule for target.
+CMakeFiles/lab_3_lib_rectangle.dir/all: CMakeFiles/lab_3_lib_point.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=15,16 "Built target lab_3_lib_rectangle"
+.PHONY : CMakeFiles/lab_3_lib_rectangle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab_3_lib_rectangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_3_lib_rectangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
+.PHONY : CMakeFiles/lab_3_lib_rectangle.dir/rule
+
+# Convenience name for target.
+lab_3_lib_rectangle: CMakeFiles/lab_3_lib_rectangle.dir/rule
+.PHONY : lab_3_lib_rectangle
+
+# clean rule for target.
+CMakeFiles/lab_3_lib_rectangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/clean
+.PHONY : CMakeFiles/lab_3_lib_rectangle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab_3_lib_square.dir
+
+# All Build rule for target.
+CMakeFiles/lab_3_lib_square.dir/all: CMakeFiles/lab_3_lib_point.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=17,18 "Built target lab_3_lib_square"
+.PHONY : CMakeFiles/lab_3_lib_square.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab_3_lib_square.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_3_lib_square.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
+.PHONY : CMakeFiles/lab_3_lib_square.dir/rule
+
+# Convenience name for target.
+lab_3_lib_square: CMakeFiles/lab_3_lib_square.dir/rule
+.PHONY : lab_3_lib_square
+
+# clean rule for target.
+CMakeFiles/lab_3_lib_square.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/clean
+.PHONY : CMakeFiles/lab_3_lib_square.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
+CMakeFiles/tests.dir/all: CMakeFiles/lab_3_lib_point.dir/all
+CMakeFiles/tests.dir/all: CMakeFiles/lab_3_lib_figure.dir/all
+CMakeFiles/tests.dir/all: CMakeFiles/lab_3_lib_triangle.dir/all
+CMakeFiles/tests.dir/all: CMakeFiles/lab_3_lib_rectangle.dir/all
+CMakeFiles/tests.dir/all: CMakeFiles/lab_3_lib_square.dir/all
 CMakeFiles/tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=11,12 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/oop_labs_2024/lab_3/CMakeFiles --progress-num=21,22 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/oop_labs_2024/lab_3/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule

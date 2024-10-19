@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /workspaces/oop_labs_2024/lab_3/googletest/googletest/include -isystem /workspaces/oop_labs_2024/lab_3/googletest/googletest
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS =  -Wuninitialized -Wall -std=gnu++20
 

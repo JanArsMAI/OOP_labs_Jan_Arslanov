@@ -1,4 +1,9 @@
-/workspaces/oop_labs_2024/lab_3/CMakeFiles/main.dir
+/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_exe.dir
+/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_point.dir
+/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_figure.dir
+/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_triangle.dir
+/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_rectangle.dir
+/workspaces/oop_labs_2024/lab_3/CMakeFiles/lab_3_lib_square.dir
 /workspaces/oop_labs_2024/lab_3/CMakeFiles/tests.dir
 /workspaces/oop_labs_2024/lab_3/CMakeFiles/test.dir
 /workspaces/oop_labs_2024/lab_3/CMakeFiles/edit_cache.dir

@@ -199,6 +199,11 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   src/rectangle.cpp \
   include/rectangle.h \
   include/figure.h \
+  /usr/local/include/c++/14.2.0/fstream \
+  /usr/local/include/c++/14.2.0/bits/codecvt.h \
+  /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/basic_file.h \
+  /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/c++io.h \
+  /usr/local/include/c++/14.2.0/bits/fstream.tcc \
   include/point.h \
   /usr/local/include/c++/14.2.0/math.h \
   /usr/local/include/c++/14.2.0/cmath \
@@ -226,6 +231,16 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /usr/local/include/c++/14.2.0/tr1/poly_hermite.tcc \
   /usr/local/include/c++/14.2.0/tr1/poly_laguerre.tcc \
   /usr/local/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+  /usr/local/include/c++/14.2.0/algorithm \
+  /usr/local/include/c++/14.2.0/bits/stl_algo.h \
+  /usr/local/include/c++/14.2.0/bits/algorithmfwd.h \
+  /usr/local/include/c++/14.2.0/bits/stl_heap.h \
+  /usr/local/include/c++/14.2.0/bits/uniform_int_dist.h \
+  /usr/local/include/c++/14.2.0/bits/stl_tempbuf.h \
+  /usr/local/include/c++/14.2.0/bits/ranges_algo.h \
+  /usr/local/include/c++/14.2.0/bits/ranges_algobase.h \
+  /usr/local/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+  /usr/local/include/c++/14.2.0/pstl/execution_defs.h \
   src/square.cpp \
   include/square.h \
   src/triangle.cpp \
@@ -235,6 +250,10 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 src/triangle.cpp:
 
 src/square.cpp:
+
+/usr/local/include/c++/14.2.0/pstl/execution_defs.h:
+
+/usr/local/include/c++/14.2.0/bits/stl_algo.h:
 
 /usr/local/include/c++/14.2.0/tr1/riemann_zeta.tcc:
 
@@ -260,11 +279,23 @@ src/square.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/local/include/c++/14.2.0/bits/ranges_algo.h:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/math.h:
 
 /usr/local/include/c++/14.2.0/math.h:
+
+/usr/local/include/c++/14.2.0/bits/fstream.tcc:
+
+/usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/c++io.h:
+
+/usr/local/include/c++/14.2.0/bits/codecvt.h:
+
+/usr/local/include/c++/14.2.0/fstream:
+
+/usr/local/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 
 src/rectangle.cpp:
 
@@ -344,6 +375,8 @@ include/point.h:
 
 /usr/local/include/c++/14.2.0/cstdlib:
 
+/usr/local/include/c++/14.2.0/bits/stl_heap.h:
+
 /usr/local/include/c++/14.2.0/ext/string_conversions.h:
 
 /usr/include/asm-generic/errno.h:
@@ -357,6 +390,8 @@ include/point.h:
 /usr/local/include/c++/14.2.0/bits/ranges_base.h:
 
 /usr/local/include/c++/14.2.0/bits/functional_hash.h:
+
+/usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/basic_file.h:
 
 /usr/local/include/c++/14.2.0/string_view:
 
@@ -423,6 +458,8 @@ include/point.h:
 /usr/local/include/c++/14.2.0/stdexcept:
 
 /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/os_defines.h:
+
+/usr/local/include/c++/14.2.0/bits/ranges_algobase.h:
 
 /usr/local/include/c++/14.2.0/bits/streambuf_iterator.h:
 
@@ -496,6 +533,8 @@ include/rectangle.h:
 
 /usr/local/include/c++/14.2.0/clocale:
 
+/usr/local/include/c++/14.2.0/bits/uniform_int_dist.h:
+
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -516,11 +555,15 @@ include/rectangle.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/local/include/c++/14.2.0/algorithm:
+
 /usr/local/include/c++/14.2.0/ios:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/c++/14.2.0/bits/stl_tempbuf.h:
 
 /usr/local/include/c++/14.2.0/iosfwd:
 
@@ -681,6 +724,8 @@ main.cpp:
 /usr/local/include/c++/14.2.0/bits/stl_function.h:
 
 /usr/local/include/c++/14.2.0/backward/binders.h:
+
+/usr/local/include/c++/14.2.0/bits/algorithmfwd.h:
 
 /usr/local/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
 

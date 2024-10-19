@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -Wuninitialized -Wall CMakeFiles/lab_3_exe.dir/main.cpp.o -o lab_3_exe  liblab_3_lib_point.a liblab_3_lib_figure.a liblab_3_lib_triangle.a liblab_3_lib_rectangle.a liblab_3_lib_square.a liblab_3_lib_point.a 

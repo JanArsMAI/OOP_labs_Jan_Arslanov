@@ -379,6 +379,10 @@ CMakeFiles/tests.dir/test/test_01.cpp.o
  /workspaces/oop_labs_2024/lab_3/src/rectangle.cpp
  /workspaces/oop_labs_2024/lab_3/include/rectangle.h
  /workspaces/oop_labs_2024/lab_3/include/figure.h
+ /usr/local/include/c++/14.2.0/fstream
+ /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/basic_file.h
+ /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/c++io.h
+ /usr/local/include/c++/14.2.0/bits/fstream.tcc
  /workspaces/oop_labs_2024/lab_3/include/point.h
  /usr/local/include/c++/14.2.0/math.h
  /usr/local/include/c++/14.2.0/cmath
@@ -405,6 +409,13 @@ CMakeFiles/tests.dir/test/test_01.cpp.o
  /usr/local/include/c++/14.2.0/tr1/poly_hermite.tcc
  /usr/local/include/c++/14.2.0/tr1/poly_laguerre.tcc
  /usr/local/include/c++/14.2.0/tr1/riemann_zeta.tcc
+ /usr/local/include/c++/14.2.0/algorithm
+ /usr/local/include/c++/14.2.0/bits/stl_algo.h
+ /usr/local/include/c++/14.2.0/bits/algorithmfwd.h
+ /usr/local/include/c++/14.2.0/bits/stl_heap.h
+ /usr/local/include/c++/14.2.0/bits/uniform_int_dist.h
+ /usr/local/include/c++/14.2.0/bits/ranges_algo.h
+ /usr/local/include/c++/14.2.0/pstl/glue_algorithm_defs.h
  /workspaces/oop_labs_2024/lab_3/src/square.cpp
  /workspaces/oop_labs_2024/lab_3/include/square.h
  /workspaces/oop_labs_2024/lab_3/src/triangle.cpp
