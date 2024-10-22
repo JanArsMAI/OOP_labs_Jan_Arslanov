@@ -5,7 +5,7 @@
 
 class Figure {
 public:
-    virtual Point center() const = 0;  // Добавлен const
+    virtual Point center() const = 0;
     virtual operator double() const = 0;
     virtual bool operator==(const Figure& other) const = 0;
     virtual void get_data() const = 0;

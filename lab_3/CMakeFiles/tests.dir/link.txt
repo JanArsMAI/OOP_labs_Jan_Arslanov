@@ -1,1 +1,0 @@
-/usr/local/bin/c++  -Wuninitialized -Wall CMakeFiles/tests.dir/test/test_01.cpp.o -o tests  liblab_3_lib_point.a liblab_3_lib_figure.a liblab_3_lib_triangle.a liblab_3_lib_rectangle.a liblab_3_lib_square.a lib/libgtest.a lib/libgtest_main.a liblab_3_lib_point.a lib/libgtest.a 

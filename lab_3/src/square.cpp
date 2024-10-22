@@ -17,6 +17,8 @@ bool Square::is_valid_or_not() const {
     const Point& p2 = points[1];
     const Point& p3 = points[2];
     const Point& p4 = points[3];
+
+    
     double side1 = sqrt(std::pow(p1.get_x() - p2.get_x(), 2) + std::pow(p1.get_y() - p2.get_y(), 2));
     double side2 = sqrt(std::pow(p2.get_x() - p3.get_x(), 2) + std::pow(p2.get_y() - p3.get_y(), 2));
     double side3 = sqrt(std::pow(p3.get_x() - p4.get_x(), 2) + std::pow(p3.get_y() - p4.get_y(), 2));
@@ -90,7 +92,7 @@ std::ostream& Square::output(std::ostream& os) const {
 std::istream &Square::input(std::istream &is) {
     Point temp_points[4];
     for (int i = 0; i < 4; ++i) {
-        is >> temp_points[i];  // Make sure Point's operator>> is properly defined
+        is >> temp_points[i];
     }
     if (is.fail()) {
         throw std::invalid_argument("Error. Expected 4 points.");

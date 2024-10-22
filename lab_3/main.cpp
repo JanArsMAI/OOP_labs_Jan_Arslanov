@@ -29,7 +29,7 @@ int main() {
         std::cin >> command;
 
         if (command == "exit") {
-            std::cout << "Finishing executing..." << std::endl;
+            std::cout << "finishing executing..." << std::endl;
             working_now = false;
         } else if (command == "add_figure") {
             add_figure(list_of_figures, current_size, capacity);
@@ -70,29 +70,29 @@ void add_figure(Figure **list_of_figures, int &size, int &capacity) {
             current_figure = new Square();
             break;
         } else {
-            std::cout << "Invalid input, please try again." << std::endl;
+            std::cout << "invalid input, please try again." << std::endl;
         }
     }
 
     try {
         std::cin >> *current_figure;
-        list_of_figures[size++] = current_figure; // Increment size after adding
+        list_of_figures[size++] = current_figure;
         std::cout << "Figure added successfully!" << std::endl;
     } catch (const std::exception &e) {
-        delete current_figure; // Ensure we clean up on failure
+        delete current_figure;
         std::cout << "Error: " << e.what() << std::endl;
     }
 }
 
 void delete_figure(Figure **list_of_figures, int &size, const int &capacity) {
     if (size <= 0) {
-        std::cout << "List is empty, unable to delete." << std::endl;
+        std::cout << "list is empty, unable to delete." << std::endl;
         return;
     }
 
     int index = -1;
     while (index < 0 || index >= size) {
-        std::cout << "Enter index to delete (0-" << size - 1 << "): ";
+        std::cout << "enter index to delete (0-" << size - 1 << "): ";
         std::cin >> index;
     }
 
@@ -100,9 +100,9 @@ void delete_figure(Figure **list_of_figures, int &size, const int &capacity) {
     for (int i = index; i < size - 1; ++i) {
         list_of_figures[i] = list_of_figures[i + 1];
     }
-    list_of_figures[--size] = nullptr; // Clear last element
+    list_of_figures[--size] = nullptr;
 
-    std::cout << "Figure deleted successfully!" << std::endl;
+    std::cout << "figure deleted successfully!" << std::endl;
 }
 
 void print_info(Figure **list_of_figures, int &size, const int &capacity) {

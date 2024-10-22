@@ -38,7 +38,7 @@ bool Triangle::check_for_equal_points(const Point& point_1, const Point& point_2
     if ((point_1.get_x() == point_2.get_x() && point_1.get_y() == point_2.get_y()) || 
         (point_1.get_x() == point_3.get_x() && point_1.get_y() == point_3.get_y()) || 
         (point_2.get_x() == point_3.get_x() && point_2.get_y() == point_3.get_y())) {
-        throw std::invalid_argument("Some points are the same. Impossible to form a triangle.");
+        throw std::invalid_argument("Some points are the same. Impossible to make a triangle.");
     }
     return true;
 }

@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblab_3_lib_point.a CMakeFiles/lab_3_lib_point.dir/src/point.cpp.o
-/usr/bin/ranlib liblab_3_lib_point.a

@@ -17,7 +17,9 @@ Point::Point(Point &&other) {
 }
 
 Point& Point::operator=(const Point &other) {
-    if (this == &other) return *this;
+    if (this == &other){
+        return *this;
+    }
     this->x = other.x;
     this->y = other.y;
     return *this;
