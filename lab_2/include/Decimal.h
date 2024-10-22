@@ -25,7 +25,6 @@ public:
     Decimal& operator-=(const Decimal &other);
     Decimal& operator=(const Decimal &other);
     Decimal& operator=(Decimal &&other) noexcept;
-
     bool operator>(const Decimal& other) const;
     bool operator<(const Decimal& other) const;
 
@@ -34,7 +33,7 @@ public:
 private:
     size_t _size;
     unsigned char* _array;
-    void checking_digit(unsigned char digit); private:
+    void checking_digit(unsigned char digit);
 };
 
 

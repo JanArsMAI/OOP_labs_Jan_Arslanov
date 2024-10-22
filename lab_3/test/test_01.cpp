@@ -10,8 +10,8 @@ TEST(test_of_square, correct_square)
     ASSERT_TRUE(static_cast<double>(rect_1) == 4.0);
     ASSERT_NO_THROW(rect_1.get_data());
     Point cent = rect_1.center();
-    ASSERT_TRUE(cent.y == 0.0);
-    ASSERT_TRUE(cent.x == 0.0);
+    ASSERT_TRUE(cent.get_y() == 0.0);
+    ASSERT_TRUE(cent.get_x() == 0.0);
 }
 
 TEST(test_of_triangle, correct_triangle)
@@ -20,7 +20,7 @@ TEST(test_of_triangle, correct_triangle)
     Triangle triangle_1(points);
     ASSERT_NO_THROW(triangle_1.get_data());
     Point cent = triangle_1.center();
-    ASSERT_TRUE(cent.y == 0.0);
+    ASSERT_TRUE(cent.get_y() == 0.0);
 }
 
 TEST(test_of_rectangle, correct_rectangle)
@@ -30,8 +30,8 @@ TEST(test_of_rectangle, correct_rectangle)
     ASSERT_TRUE(static_cast<double>(rect_1) == 16.0);
     ASSERT_NO_THROW(rect_1.get_data());
     Point cent = rect_1.center();
-    ASSERT_TRUE(cent.y == 0.0);
-    ASSERT_TRUE(cent.x == 0.0);
+    ASSERT_TRUE(cent.get_y() == 0.0);
+    ASSERT_TRUE(cent.get_x() == 0.0);
 }
 
 TEST(test_of_triangle, wrong_triangle)

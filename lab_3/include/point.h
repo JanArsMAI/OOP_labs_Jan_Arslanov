@@ -1,18 +1,27 @@
-#pragma once 
-#include <ostream>
-#include <istream>
+#pragma once
+#include <iostream>
+#include <fstream>
+#include <math.h>
 
-struct Point
-{
-    double x, y;
-    Point(): x(0), y(0) {}
-    Point(double x, double y): x(x), y(y) {}
-    friend std::ostream &operator<<(std::ostream& output, const Point& cur_point){
-        output << "coordinate x: " << cur_point.x << " " << "coordinate y: " << cur_point.y;
-        return output;
-    }
-    friend std::istream &operator>>(std::istream& input, Point& cur_point){
-        input >> cur_point.x >> cur_point.y;
-        return input;
-    }
+class Point {
+    private:
+        double x;
+        double y;
+
+    public:
+        Point() = default;
+        Point (double xValue, double yValue);
+        Point (const Point &other);
+        Point (Point &&other);
+        Point& operator= (const Point &other);
+        Point& operator= (Point &&other);
+        bool operator== (const Point &other) const;
+        double get_x () const;
+        double get_y () const;
+
+        friend std::ostream& operator<< (std::ostream& os, const Point &point);
+        friend std::istream& operator>> (std::istream& is, Point &point);
 };
+
+std::ostream& operator<< (std::ostream& os, const Point &point);
+std::istream& operator>> (std::istream& is, Point &point);

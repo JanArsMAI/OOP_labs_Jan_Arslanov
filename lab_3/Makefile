@@ -172,17 +172,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named lab_3_exe
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+lab_3_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab_3_exe
+.PHONY : lab_3_exe
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+lab_3_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/build
+.PHONY : lab_3_exe/fast
+
+#=============================================================================
+# Target rules for targets named lab_3_lib_point
+
+# Build rule for target.
+lab_3_lib_point: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab_3_lib_point
+.PHONY : lab_3_lib_point
+
+# fast build rule for target.
+lab_3_lib_point/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/build
+.PHONY : lab_3_lib_point/fast
+
+#=============================================================================
+# Target rules for targets named lab_3_lib_figure
+
+# Build rule for target.
+lab_3_lib_figure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab_3_lib_figure
+.PHONY : lab_3_lib_figure
+
+# fast build rule for target.
+lab_3_lib_figure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/build
+.PHONY : lab_3_lib_figure/fast
+
+#=============================================================================
+# Target rules for targets named lab_3_lib_triangle
+
+# Build rule for target.
+lab_3_lib_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab_3_lib_triangle
+.PHONY : lab_3_lib_triangle
+
+# fast build rule for target.
+lab_3_lib_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/build
+.PHONY : lab_3_lib_triangle/fast
+
+#=============================================================================
+# Target rules for targets named lab_3_lib_rectangle
+
+# Build rule for target.
+lab_3_lib_rectangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab_3_lib_rectangle
+.PHONY : lab_3_lib_rectangle
+
+# fast build rule for target.
+lab_3_lib_rectangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/build
+.PHONY : lab_3_lib_rectangle/fast
+
+#=============================================================================
+# Target rules for targets named lab_3_lib_square
+
+# Build rule for target.
+lab_3_lib_square: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab_3_lib_square
+.PHONY : lab_3_lib_square
+
+# fast build rule for target.
+lab_3_lib_square/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/build
+.PHONY : lab_3_lib_square/fast
 
 #=============================================================================
 # Target rules for targets named tests
@@ -254,7 +319,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -262,7 +327,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -270,8 +335,128 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_exe.dir/build.make CMakeFiles/lab_3_exe.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/figure.o: src/figure.cpp.o
+.PHONY : src/figure.o
+
+# target to build an object file
+src/figure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/src/figure.cpp.o
+.PHONY : src/figure.cpp.o
+
+src/figure.i: src/figure.cpp.i
+.PHONY : src/figure.i
+
+# target to preprocess a source file
+src/figure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/src/figure.cpp.i
+.PHONY : src/figure.cpp.i
+
+src/figure.s: src/figure.cpp.s
+.PHONY : src/figure.s
+
+# target to generate assembly for a file
+src/figure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_figure.dir/build.make CMakeFiles/lab_3_lib_figure.dir/src/figure.cpp.s
+.PHONY : src/figure.cpp.s
+
+src/point.o: src/point.cpp.o
+.PHONY : src/point.o
+
+# target to build an object file
+src/point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/src/point.cpp.o
+.PHONY : src/point.cpp.o
+
+src/point.i: src/point.cpp.i
+.PHONY : src/point.i
+
+# target to preprocess a source file
+src/point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/src/point.cpp.i
+.PHONY : src/point.cpp.i
+
+src/point.s: src/point.cpp.s
+.PHONY : src/point.s
+
+# target to generate assembly for a file
+src/point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_point.dir/build.make CMakeFiles/lab_3_lib_point.dir/src/point.cpp.s
+.PHONY : src/point.cpp.s
+
+src/rectangle.o: src/rectangle.cpp.o
+.PHONY : src/rectangle.o
+
+# target to build an object file
+src/rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/src/rectangle.cpp.o
+.PHONY : src/rectangle.cpp.o
+
+src/rectangle.i: src/rectangle.cpp.i
+.PHONY : src/rectangle.i
+
+# target to preprocess a source file
+src/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/src/rectangle.cpp.i
+.PHONY : src/rectangle.cpp.i
+
+src/rectangle.s: src/rectangle.cpp.s
+.PHONY : src/rectangle.s
+
+# target to generate assembly for a file
+src/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_rectangle.dir/build.make CMakeFiles/lab_3_lib_rectangle.dir/src/rectangle.cpp.s
+.PHONY : src/rectangle.cpp.s
+
+src/square.o: src/square.cpp.o
+.PHONY : src/square.o
+
+# target to build an object file
+src/square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/src/square.cpp.o
+.PHONY : src/square.cpp.o
+
+src/square.i: src/square.cpp.i
+.PHONY : src/square.i
+
+# target to preprocess a source file
+src/square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/src/square.cpp.i
+.PHONY : src/square.cpp.i
+
+src/square.s: src/square.cpp.s
+.PHONY : src/square.s
+
+# target to generate assembly for a file
+src/square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_square.dir/build.make CMakeFiles/lab_3_lib_square.dir/src/square.cpp.s
+.PHONY : src/square.cpp.s
+
+src/triangle.o: src/triangle.cpp.o
+.PHONY : src/triangle.o
+
+# target to build an object file
+src/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/src/triangle.cpp.o
+.PHONY : src/triangle.cpp.o
+
+src/triangle.i: src/triangle.cpp.i
+.PHONY : src/triangle.i
+
+# target to preprocess a source file
+src/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/src/triangle.cpp.i
+.PHONY : src/triangle.cpp.i
+
+src/triangle.s: src/triangle.cpp.s
+.PHONY : src/triangle.s
+
+# target to generate assembly for a file
+src/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_3_lib_triangle.dir/build.make CMakeFiles/lab_3_lib_triangle.dir/src/triangle.cpp.s
+.PHONY : src/triangle.cpp.s
 
 test/test_01.o: test/test_01.cpp.o
 .PHONY : test/test_01.o
@@ -314,11 +499,31 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... main"
+	@echo "... lab_3_exe"
+	@echo "... lab_3_lib_figure"
+	@echo "... lab_3_lib_point"
+	@echo "... lab_3_lib_rectangle"
+	@echo "... lab_3_lib_square"
+	@echo "... lab_3_lib_triangle"
 	@echo "... tests"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/figure.o"
+	@echo "... src/figure.i"
+	@echo "... src/figure.s"
+	@echo "... src/point.o"
+	@echo "... src/point.i"
+	@echo "... src/point.s"
+	@echo "... src/rectangle.o"
+	@echo "... src/rectangle.i"
+	@echo "... src/rectangle.s"
+	@echo "... src/square.o"
+	@echo "... src/square.i"
+	@echo "... src/square.s"
+	@echo "... src/triangle.o"
+	@echo "... src/triangle.i"
+	@echo "... src/triangle.s"
 	@echo "... test/test_01.o"
 	@echo "... test/test_01.i"
 	@echo "... test/test_01.s"

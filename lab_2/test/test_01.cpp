@@ -149,6 +149,8 @@ TEST(Decimal_test, Operator_of_addition)
         ASSERT_TRUE(ch[i] == ch_st[i]);
     }
 }
+
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
