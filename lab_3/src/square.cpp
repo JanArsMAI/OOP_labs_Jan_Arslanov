@@ -3,6 +3,8 @@
 #include <cmath>
 #include <stdexcept>
 #include <iostream>
+#include <limits>
+#include <algorithm>
 
 Square::Square(const Point list_of_points[4]) {
     for (size_t i = 0; i < 4; ++i) {
@@ -112,7 +114,10 @@ std::istream& operator>>(std::istream& is, Square& object) {
 }
 
 Point Square::center() const {
-    double max_x(0), min_x(100000), max_y(0), min_y(100000);
+    double max_x = std::numeric_limits<double>::min();
+    double min_x = std::numeric_limits<double>::max();
+    double max_y = std::numeric_limits<double>::min();
+    double min_y = std::numeric_limits<double>::max();
     for (size_t i = 0; i < 4; ++i) {
         max_x = std::max(max_x, points[i].get_x());
         min_x = std::min(min_x, points[i].get_x());
