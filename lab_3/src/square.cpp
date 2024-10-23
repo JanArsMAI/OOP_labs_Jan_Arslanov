@@ -14,6 +14,11 @@ Square::Square(const Point list_of_points[4]) {
         throw std::invalid_argument("Invalid square: all sides and diagonals must be equal.");
     }
 }
+Square::Square(const Square& other) {
+        for (size_t i = 0; i < 4; ++i) {
+            this->points[i] = other.points[i];
+        }
+    }
 bool Square::is_valid_or_not() const {
     const Point& p1 = points[0];
     const Point& p2 = points[1];
@@ -54,10 +59,13 @@ Square& Square::operator=(const Square& other_square) {
     return *this;
 }
 
-Square& Square::operator=(Square&& other_square) noexcept {
-    if (this != &other_square) {
+Square& Square::operator=(Square&& other_sq) noexcept {
+    if (this != &other_sq) {
         for (int i = 0; i < 4; ++i) {
-            points[i] = std::move(other_square.points[i]);
+            points[i] = std::move(other_sq.points[i]);
+        }
+        for (int i = 0; i < 4; ++i) {
+            other_sq.points[i] = Point(0, 0);
         }
     }
     return *this;
@@ -69,7 +77,8 @@ bool Square::operator==(const Figure& other) const {
         return false;
     }
     for (size_t i = 0; i < 4; ++i) {
-        if (this->points[i] != other_square->points[i]) {
+        if (points[i].get_x() != other_square->points[i].get_x() ||
+            points[i].get_y() != other_square->points[i].get_y()) {
             return false;
         }
     }

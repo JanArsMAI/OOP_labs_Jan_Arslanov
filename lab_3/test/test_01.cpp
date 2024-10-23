@@ -121,3 +121,49 @@ TEST(test_of_equality_not_rectangles, not_equal_rectangles)
     Rectangle rect_2(points_2);
     EXPECT_FALSE(rect_1 == rect_2);
 }
+
+TEST(test_of_square_move, square_move_operator) {
+    Point points[4] = {{-2.0, -2.0},{-2.0, 2.0},{2.0, 2.0}, {2.0, -2.0}};
+    Rectangle rect_1(points);
+    Rectangle rect_2;
+    rect_2 = std::move(rect_1);
+    ASSERT_NO_THROW(rect_2.get_data());
+}
+
+TEST(test_of_rectangle_move, rectangle_move_operator) {
+    Point points[4] = {{-2.0, -2.0},{-2.0, 2.0},{2.0, 2.0}, {2.0, -2.0}};
+    Rectangle rect_1(points);
+    Rectangle rect_2;
+    rect_2 = std::move(rect_1);
+    ASSERT_NO_THROW(rect_2.get_data());
+}
+
+TEST(test_of_triangle_move, triangle_move_operator) {
+    Point points[3] = {{-2.0, -2.0},{-2.0, 2.0},{0.0, 0.0}};
+    Triangle tr_1(points);
+    Triangle tr_2;
+    tr_2 = std::move(tr_1);
+    ASSERT_NO_THROW(tr_2.get_data());
+}
+
+TEST(test_of_triangle_copy, triangle_copy_operator) {
+    Point points[3] = {{-2.0, -2.0},{-2.0, 2.0},{0.0, 0.0}};
+    Triangle tr_1(points);
+    Triangle tr_2 = tr_1;
+    ASSERT_NO_THROW(tr_2.get_data());
+}
+
+TEST(test_of_square_copy, square_copy_operator) {
+    Point points[4] = {{-2.0, -2.0},{-2.0, 2.0},{2.0, 2.0}, {2.0, -2.0}};
+    Square rect_1(points);
+    Square rect_2;
+    rect_1 = rect_2;
+    ASSERT_TRUE(rect_1 == rect_2);
+}
+TEST(test_of_rect_copy, rect_copy_operator) {
+    Point points[4] = {{-2.0, -2.0},{-2.0, 2.0},{2.0, 2.0}, {2.0, -2.0}};
+    Rectangle rect_1(points);
+    Rectangle rect_2;
+    rect_1 = rect_2;
+    ASSERT_TRUE(rect_1 == rect_2);
+}
