@@ -7,6 +7,7 @@ class Triangle : public Figure {
 public:
     Triangle() = default;
     Triangle(const Point list_of_points[3]);
+    Triangle (const Triangle &other);
     Triangle& operator=(const Triangle& other_triangle);
     Triangle& operator=(Triangle&& other_triangle) noexcept;
     bool operator==(const Figure& other) const override;

@@ -9,7 +9,11 @@ Triangle::Triangle(const Point list_of_points[3]) {
     }
     is_valid_or_not();
 }
-
+Triangle::Triangle(const Triangle& other) {
+        for (size_t i = 0; i < 3; ++i) {
+            this->points[i] = other.points[i];
+        }
+    }
 bool Triangle::is_valid_or_not() const {
     const Point first_point = this->points[0];
     const Point second_point = this->points[1];

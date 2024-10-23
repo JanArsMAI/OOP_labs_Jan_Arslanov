@@ -43,10 +43,13 @@ Rectangle &Rectangle::operator=(const Rectangle& other_rectangle){
     return *this;
 }
 
-Rectangle &Rectangle::operator=(Rectangle&& other_rectangle) noexcept {
+Rectangle& Rectangle::operator=(Rectangle&& other_rectangle) noexcept {
     if (this != &other_rectangle) {
         for (int i = 0; i < 4; ++i) {
             points[i] = std::move(other_rectangle.points[i]);
+        }
+        for (int i = 0; i < 4; ++i) {
+            other_rectangle.points[i] = Point(0, 0);
         }
     }
     return *this;

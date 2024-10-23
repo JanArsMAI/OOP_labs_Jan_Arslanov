@@ -10,6 +10,7 @@ public:
 
     Square() = default;
     Square(const Point list_of_points[4]);
+    Square (const Square &other);
     Square& operator=(const Square& other_square);
     Square& operator=(Square&& other_square) noexcept;
     bool operator==(const Figure &other) const override;
