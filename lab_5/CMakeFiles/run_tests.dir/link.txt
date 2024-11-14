@@ -1,0 +1,1 @@
+/usr/local/bin/c++ CMakeFiles/run_tests.dir/tests/test_01.cpp.o CMakeFiles/run_tests.dir/src/array.cpp.o CMakeFiles/run_tests.dir/src/MemoryRes.cpp.o -o run_tests  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a 
