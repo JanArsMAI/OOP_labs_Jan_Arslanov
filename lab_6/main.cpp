@@ -7,12 +7,13 @@
 #include "include/FileObserver.h"
 
 void ShowActions(){
-    std::cout << "\n-Actions of Arena\n"
+    std::cout << "\tActions of Arena\n"
               << "1. Add NPC\n"
               << "2. Print NPCs\n"
               << "3. Start battle\n"
               << "4. Save NPCs to file\n"
               << "5. Load NPCs from file\n"
+              << "6. Remove NPC\n"
               << "-1. Exit\n"
               << "Choose an option: ";
 }
@@ -78,6 +79,12 @@ int main()
             arena.LoadNpcFromFile(filename);
             std::cout << "NPCs loaded from file.\n";
             break;
+        }
+        case 6:{
+            std::string npcToRemove;
+            std::cout << "Enter name of npc to remove" << std::endl;
+            std::cin >> npcToRemove;
+            arena.RemoveNPC(npcToRemove);
         }
         case -1:
             std::cout << "Exiting from the programm...\n";
