@@ -16,6 +16,9 @@ void Arena::AddObserver(std::shared_ptr<Observer> observer)
 
 void Arena::ToStartBattle(int range)
 {
+    if (range > height || range > width){
+        throw std::out_of_range("range is more than size of arena");
+    }
     std::cout << "Starting battle with range: " << range << std::endl;
 
     for (auto &observer : ListOfObservers)

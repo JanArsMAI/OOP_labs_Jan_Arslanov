@@ -6,7 +6,7 @@
 #include "../include/ConsoleObserver.h"
 #include "../include/FileObserver.h"
 
-TEST(ArenaTests, CheckNPCName) {
+TEST(BattleArenaTests, CheckNPCName) {
     Arena arena(500, 500);
     arena.SpawnNPC("Ork", "OrkTest", 100, 100);
 
@@ -15,7 +15,7 @@ TEST(ArenaTests, CheckNPCName) {
     EXPECT_EQ(npcs[0]->getNpcName(), "OrkTest");
 }
 
-TEST(ArenaTests, SpawnIncreasesNPCCount) {
+TEST(BattleArenaTests, SpawnIncreasesNPCCount) {
     Arena arena(500, 500);
 
     arena.SpawnNPC("Ork", "OrkTest", 100, 100);
@@ -26,7 +26,7 @@ TEST(ArenaTests, SpawnIncreasesNPCCount) {
 }
 
 
-TEST(ArenaTests, VerifyNPCPosition) {
+TEST(BattleArenaTests, VerifyNPCPosition) {
     Arena arena(500, 500);
 
     arena.SpawnNPC("Ork", "OrkTest", 150, 250);
@@ -40,13 +40,13 @@ TEST(ArenaTests, VerifyNPCPosition) {
     EXPECT_EQ(y, 250);
 }
 
-TEST(ArenaTests, SpawnOutOfBounds) {
+TEST(BattleArenaTests, SpawnOutOfBounds) {
     Arena arena(500, 500);
 
     EXPECT_THROW(arena.SpawnNPC("Ork", "OutOfBoundsTest", 600, 600), std::out_of_range);
 }
 
-TEST(ArenaTests, RemoveNPC) {
+TEST(BattleArenaTests, RemoveNPC) {
     Arena arena(500, 500);
 
     arena.SpawnNPC("Ork", "OrkTest", 100, 100);
@@ -60,7 +60,7 @@ TEST(ArenaTests, RemoveNPC) {
     EXPECT_EQ(npcs_2.size(), 1);
     EXPECT_EQ(npcs_2[0]->getNpcName(), "DruidTest");
 }
-TEST(ArenaTests, RemoveNPCSingle) {
+TEST(BattleArenaTests, RemoveNPCSingle) {
     Arena arena(500, 500);
     arena.SpawnNPC("Ork", "OrkTest", 100, 100);
 
@@ -70,7 +70,7 @@ TEST(ArenaTests, RemoveNPCSingle) {
     EXPECT_EQ(arena.GetAllNPCsCopy().size(), 0);
 }
 
-TEST(ArenaTests, RemoveNPCMultiple) {
+TEST(BattleArenaTests, RemoveNPCMultiple) {
     Arena arena(500, 500);
     arena.SpawnNPC("Ork", "OrkTest", 100, 100);
     arena.SpawnNPC("Druid", "DruidTest", 200, 200);
@@ -84,13 +84,13 @@ TEST(ArenaTests, RemoveNPCMultiple) {
     EXPECT_EQ(npcs[0]->getNpcName(), "DruidTest");
 }
 
-TEST(ArenaTests, SpawnDuplicateNPCNames) {
+TEST(BattleArenaTests, SpawnDuplicateNPCNames) {
     Arena arena(500, 500);
     arena.SpawnNPC("Ork", "Duplicate", 100, 100);
     EXPECT_THROW(arena.SpawnNPC("Druid", "Duplicate", 200, 200), std::invalid_argument);
 }
 
-TEST(ArenaTest, TestConsoleObserver) {
+TEST(BattleArenaTests, TestConsoleObserver) {
     Arena arena(10, 10);
     auto observer = std::make_shared<ConsoleObserver>();
     arena.AddObserver(observer);
@@ -98,21 +98,21 @@ TEST(ArenaTest, TestConsoleObserver) {
 }
 
 
-TEST(ArenaTest, TestFileObserver) {
+TEST(BattleArenaTests, TestFileObserver) {
     Arena arena(10, 10);
     auto observer = std::make_shared<FileObserver>();
     arena.AddObserver(observer);
     EXPECT_EQ(arena.getSizeObservers(), 1);
 }
 
-TEST(ArenaTest, TestAddNPC) {
+TEST(BattleArenaTests, TestAddNPC) {
     Arena arena(10, 10);
     auto npc = std::make_unique<Ork>("NPC1", 0, 0);
     arena.AddNPC(std::move(npc));
     EXPECT_EQ(arena.GetAllNPCsCopy().size(), 1);
 }
 
-TEST(ArenaTest, TestCheckForDuplicate) {
+TEST(BattleArenaTests, TestCheckForDuplicate) {
     Arena arena(10, 10);
 
     auto npc1 = std::make_unique<Ork>("NPC1", 0, 0);
@@ -121,4 +121,29 @@ TEST(ArenaTest, TestCheckForDuplicate) {
     arena.AddNPC(std::move(npc1));
     EXPECT_FALSE(arena.CheckForDuplicate("NPC2", 0, 0));
     EXPECT_TRUE(arena.CheckForDuplicate("NPC2", 1, 1));
+}
+
+TEST(BattleArenaTests, StarterBattleWithoutNPCs){
+    Arena arena(10, 10);
+    EXPECT_NO_THROW(arena.ToStartBattle(5));
+}
+
+TEST(BattleArenaTests, StarterBattleWithoutNPCsWrongRange){
+    Arena arena(10, 10);
+    EXPECT_THROW(arena.ToStartBattle(15), std::out_of_range);
+}
+
+TEST(BattleArenaTests, FileSaverTest){
+    Arena arena(500, 500);
+    arena.SpawnNPC("Ork", "OrkTest", 100, 100);
+    arena.SpawnNPC("Druid", "DruidTest", 200, 200);
+    std::string filename = "npcs_text.txt";
+    EXPECT_NO_THROW(arena.SaveToFile(filename));
+}
+
+TEST(BattleArenaTests, SpawnerWithRandomCoordinates){
+    Arena arena(500, 500);
+    arena.SpawnNPC("Ork", "OrkTest");
+    arena.SpawnNPC("Druid", "DruidTest");
+    EXPECT_EQ(arena.GetAllNPCsCopy().size(), 2);
 }
