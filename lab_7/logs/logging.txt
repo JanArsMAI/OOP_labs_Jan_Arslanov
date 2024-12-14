@@ -1,0 +1,626 @@
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+The battle has started
+Squirrel killed by Ork: NPC_Squirell26
+Squirrel survived the attack by Ork: NPC_Squirell26
+Squirrel killed by Ork: NPC_Squirell34
+Squirrel killed by Ork: NPC_Squirell34
+Squirrel killed by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell43
+Squirrel survived the attack by Ork: NPC_Squirell43
+Squirrel survived the attack by Ork: NPC_Squirell4
+The battle has started
+Druid killed by Ork: NPC_Druid44
+Squirrel survived the attack by Ork: NPC_Squirell38
+Druid killed by Ork: NPC_Druid30
+Squirrel survived the attack by Ork: NPC_Squirell15
+Squirrel survived the attack by Ork: NPC_Squirell18
+Squirrel killed by Ork: NPC_Squirell15
+The battle has started
+Druid killed by Ork: NPC_Druid37
+Squirrel killed by Ork: NPC_Squirell36
+The battle has started
+Squirrel killed by Ork: NPC_Squirell38
+Druid survived the attack by Ork: NPC_Druid18
+Squirrel killed by Druid: NPC_Squirell15
+Squirrel killed by Druid: NPC_Squirell43
+Druid survived the attack by Ork: NPC_Druid21
+Squirrel survived the attack by Ork: NPC_Squirell30
+Druid killed by Ork: NPC_Druid21
+Druid survived the attack by Ork: NPC_Druid18
+Druid survived the attack by Ork: NPC_Druid18
+Squirrel survived the attack by Ork: NPC_Squirell30
+Druid survived the attack by Ork: NPC_Druid18
+Druid killed by Ork: NPC_Druid22
+The battle has started
+Druid survived the attack by Ork: NPC_Druid9
+Druid killed by Ork: NPC_Druid47
+Druid survived the attack by Ork: NPC_Druid9
+Druid killed by Ork: NPC_Druid9
+The battle has started
+Druid killed by Ork: NPC_Druid9
+Squirrel killed by Ork: NPC_Squirell17
+Druid killed by Ork: NPC_Druid28
+Squirrel survived the attack by Ork: NPC_Squirell44
+The battle has started
+Druid killed by Ork: NPC_Druid27
+Squirrel killed by Ork: NPC_Squirell11
+Druid survived the attack by Ork: NPC_Druid7
+Druid killed by Ork: NPC_Druid30
+Druid killed by Ork: NPC_Druid24
+The battle has started
+Druid survived the attack by Ork: NPC_Druid20
+Druid killed by Ork: NPC_Druid20
+Druid survived the attack by Ork: NPC_Druid12
+Druid survived the attack by Ork: NPC_Druid12
+Squirrel killed by Ork: NPC_Squirell23
+Squirrel killed by Druid: NPC_Squirell2
+The battle has started
+Druid killed by Ork: NPC_Druid34
+Squirrel survived the attack by Druid: NPC_Squirell9
+Squirrel survived the attack by Druid: NPC_Squirell9
+Squirrel survived the attack by Druid: NPC_Squirell9
+Squirrel survived the attack by Druid: NPC_Squirell9
+Druid survived the attack by Ork: NPC_Druid4
+Druid survived the attack by Ork: NPC_Druid29
+Druid killed by Ork: NPC_Druid42
+Druid killed by Ork: NPC_Druid4
+Druid survived the attack by Ork: NPC_Druid29
+Squirrel killed by Druid: NPC_Squirell19
+Squirrel killed by Ork: NPC_Squirell38
+The battle has started
+Druid killed by Ork: NPC_Druid19
+The battle has started
+Squirrel killed by Ork: NPC_Squirell29
+Squirrel survived the attack by Ork: NPC_Squirell4
+Squirrel survived the attack by Ork: NPC_Squirell20
+Squirrel survived the attack by Ork: NPC_Squirell48
+Druid killed by Ork: NPC_Druid31
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell7
+Squirrel survived the attack by Ork: NPC_Squirell7
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel killed by Ork: NPC_Squirell7
+Squirrel survived the attack by Ork: NPC_Squirell7
+The battle has started
+Druid killed by Ork: NPC_Druid6
+Druid killed by Ork: NPC_Druid14
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell37
+Squirrel killed by Ork: NPC_Squirell4
+Squirrel survived the attack by Ork: NPC_Squirell4
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell0
+Druid survived the attack by Ork: NPC_Druid32
+Druid killed by Ork: NPC_Druid23
+The battle has started
+Squirrel survived the attack by Druid: NPC_Squirell15
+Squirrel survived the attack by Druid: NPC_Squirell29
+Druid survived the attack by Ork: NPC_Druid35
+Squirrel survived the attack by Druid: NPC_Squirell15
+Squirrel killed by Druid: NPC_Squirell29
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell13
+Squirrel survived the attack by Ork: NPC_Squirell13
+Squirrel survived the attack by Ork: NPC_Squirell24
+Druid killed by Ork: NPC_Druid34
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell3
+Squirrel survived the attack by Ork: NPC_Squirell3
+Squirrel survived the attack by Druid: NPC_Squirell31
+Squirrel survived the attack by Druid: NPC_Squirell3
+Squirrel killed by Ork: NPC_Squirell3
+The battle has started
+Druid killed by Ork: NPC_Druid45
+The battle has started
+Druid killed by Ork: NPC_Druid23
+Squirrel killed by Ork: NPC_Squirell31
+The battle has started
+Squirrel killed by Druid: NPC_Squirell23
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell14
+Druid killed by Ork: NPC_Druid0
+Druid survived the attack by Ork: NPC_Druid3
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell1
+Squirrel survived the attack by Ork: NPC_Squirell38
+Druid killed by Ork: NPC_Druid0
+Druid survived the attack by Ork: NPC_Druid26
+Druid survived the attack by Ork: NPC_Druid41
+Squirrel survived the attack by Ork: NPC_Squirell35
+Squirrel survived the attack by Ork: NPC_Squirell18
+Squirrel survived the attack by Ork: NPC_Squirell18
+Druid survived the attack by Ork: NPC_Druid2
+Squirrel survived the attack by Ork: NPC_Squirell18
+Squirrel survived the attack by Ork: NPC_Squirell18
+Druid killed by Ork: NPC_Druid2
+The battle has started
+Squirrel killed by Ork: NPC_Squirell43
+Squirrel killed by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell47
+Druid survived the attack by Ork: NPC_Druid1
+Druid survived the attack by Ork: NPC_Druid1
+Squirrel survived the attack by Ork: NPC_Squirell37
+Druid survived the attack by Ork: NPC_Druid24
+Squirrel survived the attack by Ork: NPC_Squirell25
+Squirrel killed by Druid: NPC_Squirell31
+Squirrel killed by Ork: NPC_Squirell13
+Druid killed by Ork: NPC_Druid24
+Squirrel killed by Ork: NPC_Squirell25
+Druid survived the attack by Ork: NPC_Druid17
+Druid killed by Ork: NPC_Druid17
+Squirrel survived the attack by Druid: NPC_Squirell47
+Squirrel killed by Ork: NPC_Squirell47
+Druid survived the attack by Ork: NPC_Druid41
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell0
+Druid survived the attack by Ork: NPC_Druid5
+Druid killed by Ork: NPC_Druid36
+Squirrel survived the attack by Ork: NPC_Squirell19
+Squirrel survived the attack by Ork: NPC_Squirell47
+Squirrel survived the attack by Druid: NPC_Squirell21
+Squirrel killed by Druid: NPC_Squirell21
+Druid survived the attack by Ork: NPC_Druid1
+Druid killed by Ork: NPC_Druid27
+Squirrel killed by Ork: NPC_Squirell19
+Squirrel killed by Ork: NPC_Squirell43
+Druid survived the attack by Ork: NPC_Druid34
+Druid killed by Ork: NPC_Druid45
+Druid survived the attack by Ork: NPC_Druid34
+Druid killed by Ork: NPC_Druid1
+Druid survived the attack by Ork: NPC_Druid5
+Druid killed by Ork: NPC_Druid34
+Druid killed by Ork: NPC_Druid4
+Squirrel survived the attack by Ork: NPC_Squirell47
+Squirrel survived the attack by Ork: NPC_Squirell0
+Druid survived the attack by Ork: NPC_Druid46
+Squirrel killed by Ork: NPC_Squirell47
+Squirrel survived the attack by Ork: NPC_Squirell40
+Druid killed by Ork: NPC_Druid5
+The battle has started
+Squirrel killed by Ork: NPC_Squirell0
+Squirrel survived the attack by Druid: NPC_Squirell2
+Squirrel killed by Druid: NPC_Squirell2
+Squirrel killed by Druid: NPC_Squirell2
+Squirrel killed by Ork: NPC_Squirell19
+Squirrel survived the attack by Druid: NPC_Squirell2
+Squirrel survived the attack by Ork: NPC_Squirell1
+Squirrel survived the attack by Ork: NPC_Squirell47
+Druid survived the attack by Ork: NPC_Druid18
+Druid killed by Ork: NPC_Druid18
+Druid survived the attack by Ork: NPC_Druid18
+Druid survived the attack by Ork: NPC_Druid16
+Druid killed by Ork: NPC_Druid16
+Squirrel survived the attack by Druid: NPC_Squirell33
+Squirrel survived the attack by Ork: NPC_Squirell47
+Druid survived the attack by Ork: NPC_Druid16
+Druid survived the attack by Ork: NPC_Druid16
+Druid killed by Ork: NPC_Druid16
+Squirrel killed by Ork: NPC_Squirell25
+Squirrel survived the attack by Ork: NPC_Squirell25
+Druid survived the attack by Ork: NPC_Druid18
+Squirrel killed by Druid: NPC_Squirell24
+Squirrel killed by Ork: NPC_Squirell47
+Druid survived the attack by Ork: NPC_Druid34
+Druid survived the attack by Ork: NPC_Druid34
+Squirrel survived the attack by Druid: NPC_Squirell24
+Squirrel killed by Druid: NPC_Squirell33
+Squirrel killed by Ork: NPC_Squirell40
+The battle has started
+Druid survived the attack by Ork: NPC_Druid35
+Druid survived the attack by Ork: NPC_Druid11
+Druid killed by Ork: NPC_Druid21
+Druid survived the attack by Ork: NPC_Druid38
+Druid survived the attack by Ork: NPC_Druid20
+Druid killed by Ork: NPC_Druid25
+Squirrel survived the attack by Druid: NPC_Squirell14
+Squirrel survived the attack by Druid: NPC_Squirell14
+Squirrel killed by Druid: NPC_Squirell14
+Druid killed by Ork: NPC_Druid35
+Druid killed by Ork: NPC_Druid11
+Druid survived the attack by Ork: NPC_Druid21
+Druid survived the attack by Ork: NPC_Druid28
+Druid survived the attack by Ork: NPC_Druid38
+Druid killed by Ork: NPC_Druid38
+Druid killed by Ork: NPC_Druid20
+Squirrel killed by Druid: NPC_Squirell26
+Squirrel killed by Druid: NPC_Squirell26
+Druid survived the attack by Ork: NPC_Druid35
+Squirrel killed by Druid: NPC_Squirell14
+The battle has started
+Squirrel survived the attack by Druid: NPC_Squirell8
+Squirrel survived the attack by Ork: NPC_Squirell4
+Squirrel killed by Ork: NPC_Squirell4
+Squirrel survived the attack by Ork: NPC_Squirell8
+Squirrel killed by Ork: NPC_Squirell8
+Druid survived the attack by Ork: NPC_Druid24
+Druid killed by Ork: NPC_Druid24
+Druid survived the attack by Ork: NPC_Druid7
+Druid survived the attack by Ork: NPC_Druid7
+Squirrel killed by Ork: NPC_Squirell20
+Squirrel killed by Druid: NPC_Squirell36
+Squirrel survived the attack by Ork: NPC_Squirell10
+Druid killed by Ork: NPC_Druid37
+Squirrel survived the attack by Ork: NPC_Squirell10
+Druid survived the attack by Ork: NPC_Druid0
+Druid survived the attack by Ork: NPC_Druid22
+Druid survived the attack by Ork: NPC_Druid0
+Druid survived the attack by Ork: NPC_Druid22
+Squirrel killed by Druid: NPC_Squirell25
+Squirrel survived the attack by Druid: NPC_Squirell39
+Squirrel survived the attack by Druid: NPC_Squirell39
+Druid killed by Ork: NPC_Druid7
+Druid survived the attack by Ork: NPC_Druid0
+Druid survived the attack by Ork: NPC_Druid22
+Squirrel killed by Druid: NPC_Squirell39
+Squirrel survived the attack by Ork: NPC_Squirell10
+The battle has started
+Druid survived the attack by Ork: NPC_Druid27
+Squirrel survived the attack by Druid: NPC_Squirell49
+Squirrel killed by Druid: NPC_Squirell49
+Druid killed by Ork: NPC_Druid21
+Druid survived the attack by Ork: NPC_Druid33
+Druid killed by Ork: NPC_Druid33
+Squirrel survived the attack by Ork: NPC_Squirell18
+Squirrel killed by Ork: NPC_Squirell31
+Squirrel survived the attack by Ork: NPC_Squirell17
+Druid survived the attack by Ork: NPC_Druid43
+Druid survived the attack by Ork: NPC_Druid43
+Druid survived the attack by Ork: NPC_Druid43
+Squirrel survived the attack by Ork: NPC_Squirell8
+Druid survived the attack by Ork: NPC_Druid27
+Druid survived the attack by Ork: NPC_Druid38
+Squirrel survived the attack by Ork: NPC_Squirell17
+Druid killed by Ork: NPC_Druid38
+Druid survived the attack by Ork: NPC_Druid43
+Druid survived the attack by Ork: NPC_Druid43
+Squirrel survived the attack by Ork: NPC_Squirell42
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell1
+Squirrel killed by Ork: NPC_Squirell1
+Squirrel survived the attack by Druid: NPC_Squirell43
+Squirrel killed by Druid: NPC_Squirell43
+Druid survived the attack by Ork: NPC_Druid17
+Druid killed by Ork: NPC_Druid28
+Druid survived the attack by Ork: NPC_Druid38
+Druid survived the attack by Ork: NPC_Druid17
+Druid killed by Ork: NPC_Druid19
+Druid killed by Ork: NPC_Druid17
+Druid survived the attack by Ork: NPC_Druid23
+Druid survived the attack by Ork: NPC_Druid20
+Druid survived the attack by Ork: NPC_Druid30
+Druid killed by Ork: NPC_Druid23
+Druid killed by Ork: NPC_Druid20
+Druid survived the attack by Ork: NPC_Druid30
+Squirrel killed by Ork: NPC_Squirell36
+Druid survived the attack by Ork: NPC_Druid30
+Druid survived the attack by Ork: NPC_Druid12
+Druid killed by Ork: NPC_Druid12
+Druid killed by Ork: NPC_Druid38
+Druid survived the attack by Ork: NPC_Druid41
+Druid survived the attack by Ork: NPC_Druid9
+Druid killed by Ork: NPC_Druid9
+The battle has started
+Druid survived the attack by Ork: NPC_Druid17
+Squirrel killed by Druid: NPC_Squirell34
+Squirrel survived the attack by Druid: NPC_Squirell37
+Squirrel survived the attack by Ork: NPC_Squirell1
+Squirrel killed by Ork: NPC_Squirell46
+Squirrel killed by Druid: NPC_Squirell37
+Druid survived the attack by Ork: NPC_Druid36
+Squirrel survived the attack by Druid: NPC_Squirell30
+Squirrel killed by Druid: NPC_Squirell15
+Squirrel survived the attack by Ork: NPC_Squirell11
+Squirrel survived the attack by Ork: NPC_Squirell31
+Squirrel survived the attack by Druid: NPC_Squirell30
+Druid survived the attack by Ork: NPC_Druid5
+Druid survived the attack by Ork: NPC_Druid12
+Druid survived the attack by Ork: NPC_Druid24
+Druid survived the attack by Ork: NPC_Druid5
+Druid killed by Ork: NPC_Druid12
+Druid killed by Ork: NPC_Druid24
+Druid killed by Ork: NPC_Druid5
+Squirrel killed by Ork: NPC_Squirell11
+Squirrel survived the attack by Ork: NPC_Squirell14
+Squirrel survived the attack by Ork: NPC_Squirell31
+Squirrel survived the attack by Druid: NPC_Squirell30
+Squirrel killed by Druid: NPC_Squirell30
+Druid survived the attack by Ork: NPC_Druid36
+Squirrel killed by Druid: NPC_Squirell33
+Squirrel survived the attack by Ork: NPC_Squirell1
+The battle has started
+Squirrel killed by Ork: NPC_Squirell35
+Squirrel killed by Druid: NPC_Squirell19
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel killed by Ork: NPC_Squirell10
+Squirrel survived the attack by Ork: NPC_Squirell12
+Squirrel survived the attack by Ork: NPC_Squirell12
+Druid survived the attack by Ork: NPC_Druid0
+Squirrel killed by Ork: NPC_Squirell2
+Squirrel killed by Ork: NPC_Squirell11
+Druid killed by Ork: NPC_Druid45
+Squirrel killed by Ork: NPC_Squirell12
+Squirrel survived the attack by Ork: NPC_Squirell12
+Druid killed by Ork: NPC_Druid0
+Squirrel survived the attack by Ork: NPC_Squirell9
+Squirrel survived the attack by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell5
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell2
+Squirrel survived the attack by Ork: NPC_Squirell2
+Squirrel killed by Ork: NPC_Squirell11
+Squirrel survived the attack by Ork: NPC_Squirell2
+Squirrel survived the attack by Ork: NPC_Squirell2
+Druid killed by Ork: NPC_Druid1
+Squirrel killed by Ork: NPC_Squirell2
+Squirrel survived the attack by Ork: NPC_Squirell2
+Squirrel killed by Druid: NPC_Squirell20
+Squirrel killed by Ork: NPC_Squirell24
+Druid survived the attack by Ork: NPC_Druid43
+Druid survived the attack by Ork: NPC_Druid12
+Druid killed by Ork: NPC_Druid27
+Druid killed by Ork: NPC_Druid12
+Squirrel survived the attack by Ork: NPC_Squirell26
+Druid survived the attack by Ork: NPC_Druid43
+Druid survived the attack by Ork: NPC_Druid6
+Druid survived the attack by Ork: NPC_Druid33
+Druid survived the attack by Ork: NPC_Druid6
+Druid survived the attack by Ork: NPC_Druid33
+Druid survived the attack by Ork: NPC_Druid6
+Druid survived the attack by Ork: NPC_Druid33
+The battle has started
+Squirrel killed by Ork: NPC_Squirell18
+Druid survived the attack by Ork: NPC_Druid26
+Druid survived the attack by Ork: NPC_Druid46
+Squirrel killed by Ork: NPC_Squirell35
+Squirrel survived the attack by Druid: NPC_Squirell44
+Squirrel survived the attack by Druid: NPC_Squirell44
+Squirrel survived the attack by Druid: NPC_Squirell44
+Squirrel killed by Ork: NPC_Squirell47
+Squirrel killed by Ork: NPC_Squirell48
+Squirrel survived the attack by Ork: NPC_Squirell48
+Druid survived the attack by Ork: NPC_Druid26
+Squirrel killed by Ork: NPC_Squirell27
+Squirrel killed by Ork: NPC_Squirell45
+Squirrel survived the attack by Ork: NPC_Squirell45
+Druid killed by Ork: NPC_Druid37
+Druid killed by Ork: NPC_Druid26
+Druid killed by Ork: NPC_Druid46
+Squirrel survived the attack by Druid: NPC_Squirell44
+The battle has started
+Druid survived the attack by Ork: NPC_Druid38
+Druid survived the attack by Ork: NPC_Druid21
+Squirrel killed by Ork: NPC_Squirell11
+Druid survived the attack by Ork: NPC_Druid21
+Squirrel survived the attack by Ork: NPC_Squirell15
+Squirrel killed by Ork: NPC_Squirell7
+Druid killed by Ork: NPC_Druid29
+Squirrel killed by Druid: NPC_Squirell6
+Druid survived the attack by Ork: NPC_Druid21
+Squirrel survived the attack by Ork: NPC_Squirell15
+Squirrel killed by Ork: NPC_Squirell15
+Druid survived the attack by Ork: NPC_Druid28
+Druid killed by Ork: NPC_Druid44
+Druid survived the attack by Ork: NPC_Druid38
+Squirrel killed by Ork: NPC_Squirell40
+The battle has started
+Squirrel killed by Ork: NPC_Squirell3
+Squirrel survived the attack by Ork: NPC_Squirell13
+Druid survived the attack by Ork: NPC_Druid47
+Squirrel survived the attack by Ork: NPC_Squirell46
+Squirrel survived the attack by Ork: NPC_Squirell23
+Squirrel survived the attack by Ork: NPC_Squirell23
+Squirrel killed by Druid: NPC_Squirell24
+Squirrel killed by Druid: NPC_Squirell48
+Squirrel killed by Ork: NPC_Squirell31
+Druid killed by Ork: NPC_Druid32
+Squirrel killed by Druid: NPC_Squirell19
+Druid killed by Ork: NPC_Druid18
+Squirrel survived the attack by Ork: NPC_Squirell23
+Squirrel killed by Ork: NPC_Squirell23
+Druid survived the attack by Ork: NPC_Druid47
+Druid survived the attack by Ork: NPC_Druid14
+Squirrel killed by Ork: NPC_Squirell30
+Squirrel survived the attack by Ork: NPC_Squirell6
+Druid killed by Ork: NPC_Druid14
+Squirrel survived the attack by Druid: NPC_Squirell35
+Squirrel survived the attack by Druid: NPC_Squirell35
+Squirrel killed by Druid: NPC_Squirell35
+Squirrel killed by Ork: NPC_Squirell6
+Squirrel survived the attack by Druid: NPC_Squirell27
+Druid survived the attack by Ork: NPC_Druid10
+Squirrel survived the attack by Ork: NPC_Squirell16
+Squirrel survived the attack by Ork: NPC_Squirell13
+Squirrel killed by Ork: NPC_Squirell8
+Druid survived the attack by Ork: NPC_Druid40
+Druid survived the attack by Ork: NPC_Druid39
+Druid survived the attack by Ork: NPC_Druid9
+Druid killed by Ork: NPC_Druid47
+Squirrel survived the attack by Druid: NPC_Squirell21
+Druid killed by Ork: NPC_Druid40
+Druid survived the attack by Ork: NPC_Druid9
+Squirrel killed by Druid: NPC_Squirell21
+Druid killed by Ork: NPC_Druid39
+Druid survived the attack by Ork: NPC_Druid29
+Druid survived the attack by Ork: NPC_Druid44
+Druid killed by Ork: NPC_Druid29
+Druid killed by Ork: NPC_Druid44
+Squirrel killed by Ork: NPC_Squirell13
+Druid survived the attack by Ork: NPC_Druid20
+Druid killed by Ork: NPC_Druid20
+Druid killed by Ork: NPC_Druid7
+Druid killed by Ork: NPC_Druid22
+Druid killed by Ork: NPC_Druid34
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Squirrel survived the attack by Ork: NPC_Squirell49
+Squirrel survived the attack by Ork: NPC_Squirell49
+Squirrel survived the attack by Ork: NPC_Squirell49
+Squirrel killed by Ork: NPC_Squirell49
+Squirrel killed by Ork: NPC_Squirell49
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid36
+Druid killed by Ork: NPC_Druid36
+Squirrel killed by Ork: NPC_Squirell37
+Squirrel survived the attack by Ork: NPC_Squirell37
+Squirrel survived the attack by Ork: NPC_Squirell16
+Druid survived the attack by Ork: NPC_Druid15
+Squirrel survived the attack by Ork: NPC_Squirell46
+Squirrel killed by Ork: NPC_Squirell27
+Squirrel survived the attack by Ork: NPC_Squirell41
+Squirrel survived the attack by Ork: NPC_Squirell46
+Squirrel survived the attack by Ork: NPC_Squirell46
+Squirrel killed by Ork: NPC_Squirell41
+Druid survived the attack by Ork: NPC_Druid10
+Druid survived the attack by Ork: NPC_Druid9
+Druid killed by Ork: NPC_Druid10
+Druid survived the attack by Ork: NPC_Druid9
+Squirrel survived the attack by Ork: NPC_Squirell46
+Squirrel survived the attack by Ork: NPC_Squirell46
+Squirrel survived the attack by Ork: NPC_Squirell16
+Squirrel survived the attack by Ork: NPC_Squirell16
+Squirrel killed by Ork: NPC_Squirell16
+Druid survived the attack by Ork: NPC_Druid15
+Druid survived the attack by Ork: NPC_Druid15
+Squirrel killed by Ork: NPC_Squirell46
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid9
+Druid killed by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid15
+Druid survived the attack by Ork: NPC_Druid15
+Druid survived the attack by Ork: NPC_Druid15
+Druid survived the attack by Ork: NPC_Druid15
+Druid killed by Ork: NPC_Druid15
+The battle has started
+Squirrel survived the attack by Ork: NPC_Squirell20
+Druid killed by Ork: NPC_Druid3
+Squirrel survived the attack by Ork: NPC_Squirell17
+Druid killed by Ork: NPC_Druid21
+Druid survived the attack by Ork: NPC_Druid32
+Druid survived the attack by Ork: NPC_Druid29
+Squirrel survived the attack by Ork: NPC_Squirell35
+Squirrel survived the attack by Ork: NPC_Squirell0
+Druid survived the attack by Ork: NPC_Druid29
+Druid survived the attack by Ork: NPC_Druid29
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel survived the attack by Druid: NPC_Squirell33
+Squirrel survived the attack by Druid: NPC_Squirell33
+Squirrel survived the attack by Druid: NPC_Squirell33
+Druid killed by Ork: NPC_Druid29
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel survived the attack by Druid: NPC_Squirell33
+Squirrel survived the attack by Ork: NPC_Squirell35
+Squirrel killed by Ork: NPC_Squirell39
+Squirrel killed by Ork: NPC_Squirell16
+Druid survived the attack by Ork: NPC_Druid26
+Squirrel survived the attack by Ork: NPC_Squirell17
+Druid survived the attack by Ork: NPC_Druid26
+Squirrel killed by Ork: NPC_Squirell19
+Squirrel killed by Ork: NPC_Squirell34
+Squirrel survived the attack by Ork: NPC_Squirell37
+Squirrel killed by Ork: NPC_Squirell20
+Druid survived the attack by Ork: NPC_Druid2
+Druid killed by Ork: NPC_Druid24
+Squirrel survived the attack by Druid: NPC_Squirell17
+Squirrel survived the attack by Druid: NPC_Squirell17
+Druid survived the attack by Ork: NPC_Druid2
+Druid killed by Ork: NPC_Druid30
+Squirrel survived the attack by Ork: NPC_Squirell6
+Druid survived the attack by Ork: NPC_Druid44
+Druid killed by Ork: NPC_Druid2
+Squirrel survived the attack by Ork: NPC_Squirell13
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel survived the attack by Ork: NPC_Squirell23
+Druid killed by Ork: NPC_Druid28
+Squirrel killed by Druid: NPC_Squirell22
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel killed by Ork: NPC_Squirell6
+Squirrel survived the attack by Ork: NPC_Squirell6
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel killed by Ork: NPC_Squirell13
+Druid killed by Ork: NPC_Druid48
+Squirrel survived the attack by Ork: NPC_Squirell37
+Druid survived the attack by Ork: NPC_Druid32
+Druid killed by Ork: NPC_Druid46
+Druid survived the attack by Ork: NPC_Druid44
+Squirrel survived the attack by Ork: NPC_Squirell41
+Squirrel killed by Ork: NPC_Squirell33
+Squirrel killed by Ork: NPC_Squirell41
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel survived the attack by Ork: NPC_Squirell18
+Squirrel killed by Druid: NPC_Squirell17
+Squirrel killed by Druid: NPC_Squirell18
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel survived the attack by Ork: NPC_Squirell10
+Squirrel killed by Ork: NPC_Squirell10
+Squirrel killed by Ork: NPC_Squirell10
+Druid survived the attack by Ork: NPC_Druid32
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel survived the attack by Ork: NPC_Squirell37
+Squirrel killed by Ork: NPC_Squirell23
+Druid survived the attack by Ork: NPC_Druid32
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel survived the attack by Ork: NPC_Squirell0
+Druid survived the attack by Ork: NPC_Druid32
+Druid killed by Ork: NPC_Druid44
+Squirrel survived the attack by Ork: NPC_Squirell36
+Squirrel survived the attack by Ork: NPC_Squirell36
+Squirrel killed by Ork: NPC_Squirell36
+Squirrel survived the attack by Ork: NPC_Squirell35
+Squirrel killed by Ork: NPC_Squirell35
+Squirrel killed by Ork: NPC_Squirell42
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel killed by Ork: NPC_Squirell37
+Squirrel killed by Ork: NPC_Squirell12
+Druid survived the attack by Ork: NPC_Druid32
+Druid survived the attack by Ork: NPC_Druid32
+Druid survived the attack by Ork: NPC_Druid32
+Druid survived the attack by Ork: NPC_Druid32
+Squirrel survived the attack by Ork: NPC_Squirell8
+Druid killed by Ork: NPC_Druid32
+Squirrel survived the attack by Ork: NPC_Squirell38
+Squirrel survived the attack by Ork: NPC_Squirell0
+Squirrel survived the attack by Ork: NPC_Squirell0
+Squirrel survived the attack by Ork: NPC_Squirell0
+Squirrel killed by Ork: NPC_Squirell0
+Squirrel killed by Ork: NPC_Squirell0
+Squirrel survived the attack by Ork: NPC_Squirell38
+Squirrel survived the attack by Ork: NPC_Squirell8
+Squirrel survived the attack by Ork: NPC_Squirell8
+Squirrel killed by Ork: NPC_Squirell8
+Squirrel killed by Ork: NPC_Squirell38
+Squirrel survived the attack by Ork: NPC_Squirell38
+Druid survived the attack by Ork: NPC_Druid26
+Druid survived the attack by Ork: NPC_Druid26
+Druid survived the attack by Ork: NPC_Druid26
+Druid killed by Ork: NPC_Druid26
