@@ -261,7 +261,7 @@ int Arena::createRandomValue(int min, int max) {
 
 void Arena::startMovementThread() {
     try {
-        movementThread = std::thread(&Arena::MovingFunction, this);
+        movementThread = std::thread([this]() { MovingFunction(); });
     } catch (const std::exception& e) {
         std::cerr << "Error starting movement thread: " << e.what() << std::endl;
         throw;
@@ -270,7 +270,7 @@ void Arena::startMovementThread() {
 
 void Arena::StartFightThread() {
     try {
-        fightThread = std::thread(&Arena::FightFunction, this);
+        fightThread = std::thread([this]() { FightFunction(); });
     } catch (const std::exception& e) {
         std::cerr << "Error starting fight thread: " << e.what() << std::endl;
         throw;
