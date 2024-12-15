@@ -624,3 +624,91 @@ Druid survived the attack by Ork: NPC_Druid26
 Druid survived the attack by Ork: NPC_Druid26
 Druid survived the attack by Ork: NPC_Druid26
 Druid killed by Ork: NPC_Druid26
+The battle has started
+Druid killed by Ork: NPC_Druid9
+Druid survived the attack by Ork: NPC_Druid28
+Druid survived the attack by Ork: NPC_Druid10
+Druid survived the attack by Ork: NPC_Druid33
+Druid survived the attack by Ork: NPC_Druid37
+Druid survived the attack by Ork: NPC_Druid41
+Druid killed by Ork: NPC_Druid10
+Squirrel survived the attack by Druid: NPC_Squirell16
+Squirrel survived the attack by Druid: NPC_Squirell16
+Squirrel killed by Druid: NPC_Squirell16
+Druid killed by Ork: NPC_Druid33
+Druid killed by Ork: NPC_Druid37
+Druid killed by Ork: NPC_Druid41
+Squirrel survived the attack by Druid: NPC_Squirell31
+Squirrel killed by Druid: NPC_Squirell31
+Squirrel survived the attack by Ork: NPC_Squirell34
+Druid killed by Ork: NPC_Druid28
+Squirrel survived the attack by Ork: NPC_Squirell34
+Squirrel killed by Ork: NPC_Squirell12
+Squirrel survived the attack by Ork: NPC_Squirell2
+Squirrel survived the attack by Druid: NPC_Squirell27
+Squirrel survived the attack by Druid: NPC_Squirell27
+Druid survived the attack by Ork: NPC_Druid46
+Druid survived the attack by Ork: NPC_Druid46
+Druid survived the attack by Ork: NPC_Druid45
+Squirrel survived the attack by Ork: NPC_Squirell13
+Squirrel killed by Ork: NPC_Squirell4
+Squirrel killed by Ork: NPC_Squirell13
+Druid killed by Ork: NPC_Druid45
+Druid killed by Ork: NPC_Druid26
+Druid survived the attack by Ork: NPC_Druid18
+Squirrel survived the attack by Druid: NPC_Squirell29
+Druid survived the attack by Ork: NPC_Druid46
+Druid survived the attack by Ork: NPC_Druid3
+Druid survived the attack by Ork: NPC_Druid3
+Druid killed by Ork: NPC_Druid3
+Druid killed by Ork: NPC_Druid11
+Squirrel killed by Ork: NPC_Squirell5
+Squirrel survived the attack by Ork: NPC_Squirell20
+Druid survived the attack by Ork: NPC_Druid48
+Druid survived the attack by Ork: NPC_Druid48
+Druid survived the attack by Ork: NPC_Druid48
+Druid killed by Ork: NPC_Druid48
+Druid killed by Ork: NPC_Druid38
+Squirrel killed by Druid: NPC_Squirell19
+Squirrel killed by Ork: NPC_Squirell6
+Druid survived the attack by Ork: NPC_Druid15
+Squirrel killed by Ork: NPC_Squirell27
+Squirrel survived the attack by Ork: NPC_Squirell30
+Druid killed by Ork: NPC_Druid43
+Squirrel survived the attack by Ork: NPC_Squirell30
+Squirrel killed by Ork: NPC_Squirell20
+Squirrel survived the attack by Ork: NPC_Squirell1
+Squirrel survived the attack by Druid: NPC_Squirell29
+Squirrel survived the attack by Ork: NPC_Squirell49
+Druid survived the attack by Ork: NPC_Druid7
+Druid killed by Ork: NPC_Druid7
+Squirrel killed by Ork: NPC_Squirell49
+Squirrel survived the attack by Ork: NPC_Squirell34
+Squirrel survived the attack by Ork: NPC_Squirell34
+Squirrel killed by Druid: NPC_Squirell29
+Druid killed by Ork: NPC_Druid44
+Squirrel survived the attack by Ork: NPC_Squirell2
+Squirrel survived the attack by Ork: NPC_Squirell22
+Squirrel killed by Ork: NPC_Squirell2
+Squirrel survived the attack by Ork: NPC_Squirell22
+Squirrel killed by Ork: NPC_Squirell22
+Druid killed by Ork: NPC_Druid15
+Druid killed by Ork: NPC_Druid18
+Squirrel survived the attack by Druid: NPC_Squirell1
+Squirrel survived the attack by Ork: NPC_Squirell30
+Squirrel killed by Druid: NPC_Squirell1
+Druid killed by Ork: NPC_Druid36
+Squirrel killed by Ork: NPC_Squirell30
+Druid survived the attack by Ork: NPC_Druid46
+Druid killed by Ork: NPC_Druid46
+Squirrel survived the attack by Ork: NPC_Squirell34
+Squirrel survived the attack by Ork: NPC_Squirell34
+Squirrel survived the attack by Ork: NPC_Squirell34
+Druid survived the attack by Ork: NPC_Druid42
+Squirrel survived the attack by Ork: NPC_Squirell47
+Squirrel survived the attack by Ork: NPC_Squirell47
+Squirrel survived the attack by Ork: NPC_Squirell47
+Squirrel killed by Ork: NPC_Squirell47
+Squirrel killed by Ork: NPC_Squirell34
+Druid survived the attack by Ork: NPC_Druid42
+Druid killed by Ork: NPC_Druid42
